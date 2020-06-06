@@ -1,0 +1,1142 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "lodur-minimalistic-icons";
+  src: url("../assets/icon/lodur-minimalistic-icons.eot?pxt447");
+  src: url("../assets/icon/lodur-minimalistic-icons.eot?pxt447#iefix") format("embedded-opentype"), url("../assets/icon/lodur-minimalistic-icons.ttf?pxt447") format("truetype"), url("../assets/icon/lodur-minimalistic-icons.woff?pxt447") format("woff"), url("../assets/icon/lodur-minimalistic-icons.svg?pxt447#lodur-minimalistic-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="lodur-icon-"], [class*=" lodur-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "lodur-minimalistic-icons" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.lodur-icon-athlete-1:before {
+  content: "a"; }
+
+.lodur-icon-chevron-up:before {
+  content: "b"; }
+
+.lodur-icon-dollar:before {
+  content: "c"; }
+
+.lodur-icon-list-ordered:before {
+  content: "d"; }
+
+.lodur-icon-bin:before {
+  content: "e"; }
+
+.lodur-icon-chat:before {
+  content: "f"; }
+
+.lodur-icon-more:before {
+  content: "g"; }
+
+.lodur-icon-minus2:before {
+  content: "h"; }
+
+.lodur-icon-alert:before {
+  content: "i"; }
+
+.lodur-icon-arrow-small-down:before {
+  content: "j"; }
+
+.lodur-icon-close2:before {
+  content: "k"; }
+
+.lodur-icon-list:before {
+  content: "l"; }
+
+.lodur-icon-three-bars:before {
+  content: "m"; }
+
+.lodur-icon-mail-read:before {
+  content: "n"; }
+
+.lodur-icon-arrow-small-up:before {
+  content: "o"; }
+
+.lodur-icon-arrow-small-left:before {
+  content: "p"; }
+
+.lodur-icon-arrow-small-right:before {
+  content: "q"; }
+
+.lodur-icon-mail:before {
+  content: "r"; }
+
+.lodur-icon-less:before {
+  content: "s"; }
+
+.lodur-icon-note:before {
+  content: "t"; }
+
+.lodur-icon-heart:before {
+  content: "u"; }
+
+.lodur-icon-arrow-up:before {
+  content: "v"; }
+
+.lodur-icon-arrow-right:before {
+  content: "w"; }
+
+.lodur-icon-flag:before {
+  content: "x"; }
+
+.lodur-icon-user-contact:before {
+  content: "y"; }
+
+.lodur-icon-settings:before {
+  content: "z"; }
+
+.lodur-icon-filter:before {
+  content: "A"; }
+
+.lodur-icon-arrow-left:before {
+  content: "B"; }
+
+.lodur-icon-arrow-down:before {
+  content: "C"; }
+
+.lodur-icon-edit:before {
+  content: "D"; }
+
+.lodur-icon-eye:before {
+  content: "E"; }
+
+.lodur-icon-add:before {
+  content: "F"; }
+
+.lodur-icon-star:before {
+  content: "G"; }
+
+.lodur-icon-check:before {
+  content: "H"; }
+
+.lodur-icon-chevron-down:before {
+  content: "I"; }
+
+.lodur-icon-zoom-in:before {
+  content: "J"; }
+
+.lodur-icon-minus:before {
+  content: "K"; }
+
+.lodur-icon-search:before {
+  content: "L"; }
+
+.lodur-icon-zoom-out:before {
+  content: "M"; }
+
+.lodur-icon-chevron-left:before {
+  content: "N"; }
+
+.lodur-icon-chevron-right:before {
+  content: "O"; }
+
+.lodur-icon-alarm:before {
+  content: "P"; }
+
+.lodur-icon-calendar:before {
+  content: "Q"; }
+
+.lodur-icon-user:before {
+  content: "R"; }
+
+.lodur-icon-print:before {
+  content: "S"; }
+
+.lodur-icon-edit-contact:before {
+  content: "T"; }
+
+.lodur-icon-import:before {
+  content: "U"; }
+
+.lodur-icon-comment:before {
+  content: "V"; }
+
+.lodur-icon-archive:before {
+  content: "W"; }
+
+.lodur-icon-unarchive:before {
+  content: "X"; }
+
+.lodur-icon-center-on:before {
+  content: "Y"; }
+
+.lodur-icon-zoom-to:before {
+  content: "Z"; }
+
+.lodur-icon-excel:before {
+  content: "0"; }
+
+.lodur-icon-user-info:before {
+  content: "1"; }
+
+.lodur-icon-data-grid:before {
+  content: "3"; }
+
+.lodur-icon-device-mobile:before {
+  content: "2"; }
+
+.lodur-icon-close-round:before {
+  content: "4"; }
+
+.lodur-icon-check-round:before {
+  content: "5"; }
+
+.lodur-icon-bin-open:before {
+  content: "6"; }
+
+.lodur-icon-move-to:before {
+  content: "7"; }
+
+.lodur-icon-d-selected:before {
+  content: "8"; }
+
+.lodur-icon-d-deselected:before {
+  content: "9"; }
+
+.lodur-icon-f-deselected:before {
+  content: "!"; }
+
+.lodur-icon-f-selected:before {
+  content: '"'; }
+
+.lodur-icon-successful:before {
+  content: "#"; }
+
+.lodur-icon-male:before {
+  content: "$"; }
+
+.lodur-icon-female:before {
+  content: "%"; }
+
+.lodur-icon-exclam:before {
+  content: "&"; }
+
+.lodur-icon-compass:before {
+  content: "'"; }
+
+.lodur-icon-location:before {
+  content: "("; }
+
+.lodur-icon-search-performance:before {
+  content: ")"; }
+
+.lodur-icon-administrator:before {
+  content: "*"; }
+
+.lodur-icon-kommandant:before {
+  content: "+"; }
+
+.lodur-icon-central:before {
+  content: ","; }
+
+.lodur-icon-payment:before {
+  content: "-"; }
+
+.lodur-icon-attachment:before {
+  content: "."; }
+
+.lodur-icon-expand:before {
+  content: "/"; }
+
+.lodur-icon-smiley-happy:before {
+  content: ":"; }
+
+.lodur-icon-smiley-normal:before {
+  content: ";"; }
+
+.lodur-icon-smiley-sad:before {
+  content: "<"; }
+
+.lodur-icon-download:before {
+  content: "="; }
+
+.lodur-icon-upload:before {
+  content: ">"; }
+
+.lodur-icon-statistics:before {
+  content: "?"; }
+
+.lodur-icon-adressbook:before {
+  content: "@"; }
+
+.lodur-icon-axe-big:before {
+  content: "["; }
+
+.lodur-icon-dta:before {
+  content: "]"; }
+
+.lodur-icon-master-copy:before {
+  content: "^"; }
+
+.lodur-icon-alarm-ringing:before {
+  content: "_"; }
+
+.lodur-icon-partly-cloudy:before {
+  content: "`"; }
+
+.lodur-icon-subscribe:before {
+  content: "|"; }
+
+.lodur-icon-ics:before {
+  content: "}"; }
+
+.lodur-icon-csv:before {
+  content: "~"; }
+
+.lodur-icon-weather-partly-cloudy-day-icon:before {
+  content: "\\"; }
+
+.lodur-icon-bed:before {
+  content: ""; }
+
+.lodur-icon-save:before {
+  content: ""; }
+
+.lodur-icon-locked-form:before {
+  content: "{"; }
+
+.lodur-icon-inactive:before {
+  content: ""; }
+
+.lodur-icon-marker-a:before {
+  content: ""; }
+
+.lodur-icon-marker-b:before {
+  content: ""; }
+
+.lodur-icon-marker-c:before {
+  content: ""; }
+
+.lodur-icon-marker-d:before {
+  content: ""; }
+
+.lodur-icon-army:before {
+  content: ""; }
+
+.lodur-icon-workplace:before {
+  content: ""; }
+
+.lodur-icon-boat:before {
+  content: ""; }
+
+.lodur-icon-driver-license:before {
+  content: ""; }
+
+.lodur-icon-bank:before {
+  content: ""; }
+
+.lodur-icon-group:before {
+  content: ""; }
+
+.lodur-icon-zug:before {
+  content: ""; }
+
+.lodur-icon-funktion:before {
+  content: ""; }
+
+.lodur-icon-terminart:before {
+  content: ""; }
+
+.lodur-icon-medal:before {
+  content: ""; }
+
+.lodur-icon-rank:before {
+  content: ""; }
+
+.lodur-icon-absent:before {
+  content: ""; }
+
+.lodur-icon-roman-7:before {
+  content: ""; }
+
+.lodur-icon-equipment:before {
+  content: ""; }
+
+.lodur-icon-course:before {
+  content: ""; }
+
+.lodur-icon-my-location:before {
+  content: ""; }
+
+.lodur-icon-location-of-emergency:before {
+  content: ""; }
+
+.lodur-icon-location-of-fire-engine:before {
+  content: ""; }
+
+.lodur-icon-location-of-fire-fepot:before {
+  content: ""; }
+
+.lodur-icon-forklift-icon-01:before {
+  content: ""; }
+
+.lodur-icon-pdf:before {
+  content: ""; }
+
+.lodur-icon-move-left:before {
+  content: ""; }
+
+.lodur-icon-move-right:before {
+  content: ""; }
+
+.lodur-icon-hourglass:before {
+  content: ""; }
+
+.lodur-icon-event-sign-off:before {
+  content: ""; }
+
+.lodur-icon-event-sign-off-undo:before {
+  content: ""; }
+
+.lodur-icon-mobile-siren:before {
+  content: ""; }
+
+.lodur-icon-cal-empty:before {
+  content: ""; }
+
+.lodur-icon-cal-check:before {
+  content: ""; }
+
+.lodur-icon-cal-cross:before {
+  content: ""; }
+
+.lodur-icon-xml:before {
+  content: ""; }
+
+.lodur-icon-taf:before {
+  content: ""; }
+
+.lodur-icon-emergency:before {
+  content: ""; }
+
+.lodur-icon-course-1:before {
+  content: ""; }
+
+.lodur-icon-general-activities:before {
+  content: ""; }
+
+.lodur-icon-meeting:before {
+  content: ""; }
+
+.lodur-icon-practice:before {
+  content: ""; }
+
+.lodur-icon-grant-permission:before {
+  content: ""; }
+
+.lodur-icon-transfer:before {
+  content: ""; }
+
+.lodur-icon-folder-closed:before {
+  content: ""; }
+
+.lodur-icon-folder-open:before {
+  content: ""; }
+
+.lodur-icon-folder-withfile:before {
+  content: ""; }
+
+.lodur-icon-time:before {
+  content: ""; }
+
+.lodur-icon-nav-usermanual:before {
+  content: ""; }
+
+.lodur-icon-nav-notes:before {
+  content: ""; }
+
+.lodur-icon-nav-setting:before {
+  content: ""; }
+
+.lodur-icon-nav-home:before {
+  content: ""; }
+
+.lodur-icon-nav-logout:before {
+  content: ""; }
+
+.lodur-icon-nav-upward:before {
+  content: ""; }
+
+.lodur-icon-nav-support:before {
+  content: ""; }
+
+.lodur-icon-nav-modulelist:before {
+  content: ""; }
+
+.lodur-icon-nav-hotlinks:before {
+  content: ""; }
+
+.lodur-icon-nav-monitor:before {
+  content: ""; }
+
+.lodur-icon-lock:before {
+  content: ""; }
+
+.lodur-icon-mobile-view:before {
+  content: ""; }
+
+.lodur-icon-hand:before {
+  content: ""; }
+
+.lodur-icon-eraser:before {
+  content: ""; }
+
+.lodur-icon-pentagon:before {
+  content: ""; }
+
+.lodur-icon-list-view:before {
+  content: ""; }
+
+.lodur-icon-column-view:before {
+  content: ""; }
+
+.lodur-icon-grid-view:before {
+  content: ""; }
+
+.lodur-icon-alarm-groups:before {
+  content: ""; }
+
+.lodur-icon-cart:before {
+  content: ""; }
+
+.lodur-icon-alarm-group2:before {
+  content: ""; }
+
+.lodur-icon-pending:before {
+  content: ""; }
+
+.lodur-icon-reject:before {
+  content: ""; }
+
+.lodur-icon-unlock:before {
+  content: ""; }
+
+.lodur-icon-location-small:before {
+  content: ""; }
+
+.lodur-icon-arrow-circle-right:before {
+  content: ""; }
+
+.lodur-icon-arrow-circle-left:before {
+  content: ""; }
+
+.lodur-icon-period-end:before {
+  content: ""; }
+
+.lodur-icon-change-course:before {
+  content: ""; }
+
+.lodur-icon-attendance-checklist:before {
+  content: ""; }
+
+.lodur-icon-exam-feedback:before {
+  content: ""; }
+
+.lodur-icon-checklist:before {
+  content: ""; }
+
+.lodur-icon-pencil:before {
+  content: ""; }
+
+.lodur-icon-pause:before {
+  content: ""; }
+
+.lodur-icon-home:before {
+  content: ""; }
+
+.lodur-icon-gender-neutral:before {
+  content: ""; }
+
+.lodur-icon-attendance:before {
+  content: ""; }
+
+.lodur-icon-breathing-apparatus:before {
+  content: ""; }
+
+.lodur-icon-walkie-talkie:before {
+  content: ""; }
+
+.lodur-icon-suggestion:before {
+  content: ""; }
+
+.lodur-icon-antenna:before {
+  content: ""; }
+
+.lodur-icon-man-confirmed-alarm:before {
+  content: ""; }
+
+.lodur-icon-course-full:before {
+  content: ""; }
+
+.lodur-icon-emergency-plan:before {
+  content: ""; }
+
+.lodur-icon-route:before {
+  content: ""; }
+
+.lodur-icon-course-booked:before {
+  content: ""; }
+
+.lodur-icon-min-participants:before {
+  content: ""; }
+
+.lodur-icon-full:before {
+  content: ""; }
+
+.lodur-icon-instructor:before {
+  content: ""; }
+
+.lodur-icon-clock:before {
+  content: ""; }
+
+.lodur-icon-chevron-thin-right:before {
+  content: ""; }
+
+.lodur-icon-chevron-thin-left:before {
+  content: ""; }
+
+.lodur-icon-star-tag:before {
+  content: ""; }
+
+.lodur-icon-map-center:before {
+  content: ""; }
+
+.lodur-icon-north:before {
+  content: ""; }
+
+.lodur-icon-teacher-full:before {
+  content: ""; }
+
+.lodur-icon-teacher-not-enough:before {
+  content: ""; }
+
+.lodur-icon-100:before {
+  content: ""; }
+
+.lodur-icon-no:before {
+  content: ""; }
+
+.lodur-icon-camera:before {
+  content: ""; }
+
+.lodur-icon-link:before {
+  content: ""; }
+
+.lodur-icon-file:before {
+  content: ""; }
+
+.lodur-icon-ake:before {
+  content: ""; }
+
+.lodur-icon-shopping-bag:before {
+  content: ""; }
+
+.lodur-icon-person-present:before {
+  content: ""; }
+
+.lodur-icon-person-absent:before {
+  content: ""; }
+
+.lodur-icon-undo:before {
+  content: ""; }
+
+.lodur-icon-phone:before {
+  content: ""; }
+
+.lodur-icon-web:before {
+  content: ""; }
+
+.lodur-icon-database:before {
+  content: ""; }
+
+.lodur-icon-text-element:before {
+  content: ""; }
+
+.lodur-icon-microphone:before {
+  content: ""; }
+
+.lodur-icon-ticket-answered:before {
+  content: ""; }
+
+.lodur-icon-ticket-closed:before {
+  content: ""; }
+
+.lodur-icon-ticket-open:before {
+  content: ""; }
+
+.lodur-icon-ticket-pending:before {
+  content: ""; }
+
+.lodur-icon-reply:before {
+  content: ""; }
+
+.lodur-icon-star-fill:before {
+  content: ""; }
+
+.lodur-icon-star-outline:before {
+  content: ""; }
+
+.lodur-icon-smile:before {
+  content: ""; }
+
+.lodur-icon-hashtag:before {
+  content: ""; }
+
+.lodur-icon-arrow-thin-left:before {
+  content: ""; }
+
+.lodur-icon-shop:before {
+  content: ""; }
+
+.lodur-icon-previous-order:before {
+  content: ""; }
+
+.lodur-icon-cart-thin:before {
+  content: ""; }
+
+.lodur-icon-tools:before {
+  content: ""; }
+
+.lodur-icon-reduce:before {
+  content: ""; }
+
+.lodur-icon-expand1:before {
+  content: ""; }
+
+.lodur-icon-course-name:before {
+  content: ""; }
+
+.lodur-icon-ms-word:before {
+  content: ""; }
+
+.lodur-icon-teacher:before {
+  content: ""; }
+
+.lodur-icon-brain-learning:before {
+  content: ""; }
+
+.lodur-icon-arrow-thin-right:before {
+  content: ""; }
+
+.lodur-icon-pencil1:before {
+  content: ""; }
+
+.lodur-icon-house-fire:before {
+  content: ""; }
+
+.lodur-icon-heartbeat:before {
+  content: ""; }
+
+.lodur-icon-gas-mask:before {
+  content: ""; }
+
+.lodur-icon-gas-cylinder:before {
+  content: ""; }
+
+.lodur-icon-full-view:before {
+  content: ""; }
+
+.lodur-icon-firetruck:before {
+  content: ""; }
+
+.lodur-icon-Fichier-10:before {
+  content: ""; }
+
+.lodur-icon-chemical:before {
+  content: ""; }
+
+.lodur-icon-car-crash:before {
+  content: ""; }
+
+.lodur-icon-bear:before {
+  content: ""; }
+
+.lodur-icon-target:before {
+  content: ""; }
+
+.lodur-icon-mouse:before {
+  content: ""; }
+
+.lodur-icon-tick-circle:before {
+  content: ""; }
+
+.lodur-icon-group1:before {
+  content: ""; }
+
+.lodur-icon-person:before {
+  content: ""; }
+
+.lodur-icon-time1:before {
+  content: ""; }
+
+.lodur-icon-book:before {
+  content: ""; }
+
+.lodur-icon-cart-down:before {
+  content: ""; }
+
+.lodur-icon-hanger:before {
+  content: ""; }
+
+.lodur-icon-star-tag2:before {
+  content: ""; }
+
+.lodur-icon-qualification:before {
+  content: ""; }
+
+.lodur-icon-location-pointer:before {
+  content: ""; }
+
+.lodur-icon-grad-hat:before {
+  content: ""; }
+
+.lodur-icon-surname-a:before {
+  content: ""; }
+
+.lodur-icon-name-a:before {
+  content: ""; }
+
+.lodur-icon-surname-b:before {
+  content: ""; }
+
+.lodur-icon-name-b:before {
+  content: ""; }
+
+.lodur-icon-add-to-cart:before {
+  content: ""; }
+
+.lodur-icon-chats:before {
+  content: ""; }
+
+.lodur-icon-fire-fighter-pro:before {
+  content: ""; }
+
+.lodur-icon-plane-down:before {
+  content: ""; }
+
+.lodur-icon-plane-normal:before {
+  content: ""; }
+
+.lodur-icon-plane-up:before {
+  content: ""; }
+
+.lodur-icon-qr-scan:before {
+  content: ""; }
+
+.lodur-icon-see-search:before {
+  content: ""; }
+
+.lodur-icon-water-source:before {
+  content: ""; }
+
+.lodur-icon-verschiedenes:before {
+  content: ""; }
+
+.lodur-icon-kurszielsetzungen:before {
+  content: ""; }
+
+.lodur-icon-kursinhalt:before {
+  content: ""; }
+
+.lodur-icon-kursdauer:before {
+  content: ""; }
+
+.lodur-icon-grundlagen:before {
+  content: ""; }
+
+.lodur-icon-anforderungen:before {
+  content: ""; }
+
+.lodur-icon-surname:before {
+  content: ""; }
+
+.lodur-icon-name:before {
+  content: ""; }
+
+.lodur-icon-inventory:before {
+  content: ""; }
+
+.lodur-icon-categories:before {
+  content: ""; }
+
+.lodur-icon-calender-3:before {
+  content: ""; }
+
+.lodur-icon-medic-exam:before {
+  content: ""; }
+
+.lodur-icon-mobile-tick:before {
+  content: ""; }
+
+.lodur-icon-at-tick:before {
+  content: ""; }
+
+.modal-dialog {
+  max-width: 65%; }
+  .modal-dialog img.template-preview {
+    object-fit: contain;
+    width: 100%;
+    height: 100%; }
+
+body {
+  background: #ffffff; }
+
+.homepageModule-wrapper {
+  max-width: 100%; }
+  .homepageModule-wrapper span.lodur-icon-arrow-thin-left {
+    font-size: 30px;
+    color: #a4a4a4; }
+  .homepageModule-wrapper .homepageModule-tips {
+    font-size: 12px;
+    color: #707070; }
+  .homepageModule-wrapper input.homepageModule-companyName {
+    width: 370px;
+    height: 35px;
+    border-radius: 4px;
+    border: solid 1px #aaaaaa;
+    background-color: #ffffff;
+    padding: 0 10px; }
+  .homepageModule-wrapper button.homepageModule-btn {
+    width: 98px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #0d9ed6; }
+  .homepageModule-wrapper a.homepageModule-backNav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; }
+    .homepageModule-wrapper a.homepageModule-backNav:hover {
+      outline: none;
+      text-decoration: none; }
+      .homepageModule-wrapper a.homepageModule-backNav:hover span.lodur-icon-arrow-thin-left {
+        color: #000; }
+      .homepageModule-wrapper a.homepageModule-backNav:hover p {
+        color: #000; }
+  .homepageModule-wrapper .flexbox-end {
+    position: absolute;
+    bottom: 15%; }
+  .homepageModule-wrapper .homepageModule-backNav p {
+    font-size: 14px;
+    color: #858585;
+    margin: 0;
+    padding: 0; }
+  .homepageModule-wrapper .templatePreview-liveThumb {
+    float: left;
+    margin-right: 50px; }
+  .homepageModule-wrapper .homepageModule-title h1 {
+    font-size: 26px; }
+  .homepageModule-wrapper .homepageModule-title span {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070; }
+  .homepageModule-wrapper .templatePreview-details {
+    display: flex; }
+    .homepageModule-wrapper .templatePreview-details .preview-menu {
+      display: table; }
+      .homepageModule-wrapper .templatePreview-details .preview-menu a {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+        text-align: center;
+        display: block; }
+        .homepageModule-wrapper .templatePreview-details .preview-menu a:hover {
+          border-radius: 4px;
+          background-color: #f3f3f3;
+          cursor: pointer; }
+      .homepageModule-wrapper .templatePreview-details .preview-menu:hover {
+        border-radius: 4px;
+        background-color: #f3f3f3; }
+        .homepageModule-wrapper .templatePreview-details .preview-menu:hover ul {
+          display: block;
+          position: absolute; }
+    .homepageModule-wrapper .templatePreview-details ul {
+      width: 177px;
+      display: none;
+      margin: 0;
+      padding: 0;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+      background-color: #ffffff; }
+      .homepageModule-wrapper .templatePreview-details ul li {
+        list-style-type: none;
+        margin: 0;
+        padding: 0 0 0 20px; }
+        .homepageModule-wrapper .templatePreview-details ul li:hover {
+          background-color: #f1f1f1;
+          text-decoration: none;
+          cursor: pointer; }
+        .homepageModule-wrapper .templatePreview-details ul li a {
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 2.8;
+          letter-spacing: normal;
+          text-align: left;
+          color: #000000;
+          display: initial !important; }
+          .homepageModule-wrapper .templatePreview-details ul li a:hover {
+            background-color: #f1f1f1;
+            text-decoration: none; }
+  .homepageModule-wrapper .homepageModule-drafts {
+    padding: 0; }
+    .homepageModule-wrapper .homepageModule-drafts ul {
+      padding: 0;
+      margin: 0; }
+      .homepageModule-wrapper .homepageModule-drafts ul li {
+        padding: 0;
+        margin: 30px 30px 0 0;
+        list-style-type: none;
+        float: left;
+        position: relative; }
+        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-draft-name {
+          padding-top: 8px;
+          font-size: 12px; }
+        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-published--status {
+          background-color: #2baf6d;
+          color: #ffffff;
+          text-align: center;
+          padding: 6px 0;
+          position: absolute;
+          bottom: 26px;
+          font-size: 14px;
+          width: 100%; }
+        .homepageModule-wrapper .homepageModule-drafts ul li:first-child a {
+          width: 209px;
+          height: 277px;
+          display: flex;
+          border: dashed 1px #8f8f8f;
+          align-items: center;
+          justify-content: center;
+          color: #000; }
+          .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover {
+            cursor: pointer;
+            text-decoration: none; }
+            .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover span.lodur-icon-add {
+              background-color: rgba(0, 0, 0, 0.6);
+              transition: background-color 200ms linear;
+              color: #ffffff; }
+          .homepageModule-wrapper .homepageModule-drafts ul li:first-child a span.lodur-icon-add {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            border-radius: 50%;
+            background-color: #e8e8e8;
+            transition: background-color 200ms linear; }
+        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay {
+          background-color: rgba(0, 0, 0, 0.5);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 0;
+          width: 209px;
+          height: 277px;
+          transition: opacity 0.3s;
+          -webkit-transition: opacity 0.3s;
+          opacity: 0; }
+          .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button {
+            display: block;
+            width: 85px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background-color: #0d9ed6;
+            color: #fff;
+            border: 1px solid #0d9ed6;
+            transition: background-color 200ms linear;
+            font-weight: 400; }
+            .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button:hover {
+              background-color: #0080b3;
+              border: 1px solid #0080b3;
+              color: #fff;
+              transition: background-color 200ms linear;
+              cursor: pointer; }
+        .homepageModule-wrapper .homepageModule-drafts ul li:hover .homepageModule-draft--overlay {
+          transition: opacity 0.5s;
+          -webkit-transition: opacity 0.5s;
+          opacity: 1; }
+  .homepageModule-wrapper .hpm-edit--panel {
+    padding: 30px 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
+    background-color: #ffffff;
+    position: fixed;
+    width: 20%;
+    height: 93vh;
+    margin: 30px 0 0 0; }
+    .homepageModule-wrapper .hpm-edit--panel h2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0 0 30px 0; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
+      padding: 0 0 25px;
+      margin: 0 0 40px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
+        padding: 0;
+        margin: 0; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li {
+          display: inline-block;
+          padding: 0 4px; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span {
+            width: 32px;
+            height: 32px;
+            display: block; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.red {
+              background-color: #E94C3D; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.green {
+              background-color: #3DE971; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.grey {
+              background-color: #848484; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.blue {
+              background-color: #0AC4FF; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.yellow {
+              background-color: #E9C13D; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li.selected--color a span {
+            border: solid 3px #ffffff;
+            background-color: #e94c3d;
+            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
+      font-size: 14px;
+      outline-style: dashed;
+      outline-width: 1px;
+      outline-color: #a4a4a4;
+      height: 130px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo {
+      padding: 40px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
+        font-size: 20px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
+      position: absolute;
+      bottom: 0; }
+  .homepageModule-wrapper .hpm-templatePreview {
+    padding: 0 30px 0 0; }
+    .homepageModule-wrapper .hpm-templatePreview img {
+      object-fit: contain;
+      width: 100%; }

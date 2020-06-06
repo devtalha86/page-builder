@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Builder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container homepageModule-wrapper">
+        <div class="row">    
+            <div class="col-12 col-lg-3">
+                <div class="hpm-edit--panel">
+                    <div class="hpm-colorSelection">
+                        <h2>Choose primary color</h2>
+                        <ul>
+                            <li class="selected--color"><a href="#"><span class="red"></span></a></li>
+                            <li><a href="#"><span class="green"></span></a></li>
+                            <li><a href="#"><span class="grey"></span></a></li>
+                            <li><a href="#"><span class="blue"></span></a></li>
+                            <li><a href="#"><span class="yellow"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="hpm-uploadLogo">
+                        <h2>Upload a logo</h2>
+                        <div class="hpm--uploader">
+                            <div><b>Click to upload your image</b></div>
+                            <div>(or drag and drop)</div>
+                        </div>
+                        <div class="hpm--Logo">
+                            <div>
+                                <img src="assets/image/demo-logo.png" alt="">
+                            </div>
+                            <div class="mt-4">
+                                <a href="#"><span class="lodur-icon-bin"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hpm-template--buttons">
+                        <div class="hpm--statusBar"></div>
+                        <div>
+                            <div class="hpm-statusInfo"></div>
+                            <div>
+                                <button><span class="lodur-icon-arrow-thin-left"></span></button>
+                                <button>Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-9">
+                <div class="hpm-templatePreview">
+                    <img src="assets/image/template-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+
+
+    <script>
+
+    $("#dateiSearch").focusin(function() {
+        $(".datei-folderActions").hide();
+    }).focusout(function () {
+        $(".datei-folderActions").fadeIn(400);
+    });
+    
+
+    $("#dateiSearch").focusin(function() {
+        $("#datei-searchClose").show();
+    }).focusout(function () {
+        $("#datei-searchClose").hide();
+    });
+
+    
+
+
+    jQuery("#show-folderOptions").on("click", function() {
+        jQuery(".datei-folder--option").fadeToggle( "fast");
+    });
+
+    // $('#datei-folderOptions-trigger').on('click', function(e) {
+    //   $('.datei-file--container').toggleClass("move-down-class"); //you can list several class names 
+    //   e.preventDefault();
+    // });
+
+
+    </script>
+            
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Builder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container homepageModule-wrapper">
+        <div class="row">    
+            <div class="col-12 col-lg-3"><img class="d-none d-lg-block" src="assets/image/create-site.svg" alt="Create New Site"></div>
+            <div class="col-12 col-lg-9">
+                <div class="flexbox-end ml-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="page-manager.html" class="homepageModule-backNav">
+                                <span class="lodur-icon-arrow-thin-left float-left mr-2"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="homepageModule-title">
+                                <h1>Homepage erstellen</h1>
+                            </div>
+                            <div>
+                                <input class="homepageModule-companyName float-left mr-2" placeholder="Organisationsname" type="text"><a class="homepageModule-btn btn btn-primary" href="select-template.html">Weiter</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+
+
+    <script>
+
+    $("#dateiSearch").focusin(function() {
+        $(".datei-folderActions").hide();
+    }).focusout(function () {
+        $(".datei-folderActions").fadeIn(400);
+    });
+    
+
+    $("#dateiSearch").focusin(function() {
+        $("#datei-searchClose").show();
+    }).focusout(function () {
+        $("#datei-searchClose").hide();
+    });
+
+    
+
+
+    jQuery("#show-folderOptions").on("click", function() {
+        jQuery(".datei-folder--option").fadeToggle( "fast");
+    });
+
+    // $('#datei-folderOptions-trigger').on('click', function(e) {
+    //   $('.datei-file--container').toggleClass("move-down-class"); //you can list several class names 
+    //   e.preventDefault();
+    // });
+
+
+    </script>
+            
+
+</body>
+</html>
