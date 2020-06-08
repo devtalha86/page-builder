@@ -890,11 +890,47 @@
     width: 100%;
     height: 100%; }
 
+/* Lodur Form Elements Start **************************************************/
+.lodurMobile-form input[type=text], .lodurMobile-form input[type=date], .lodurMobile-form input[type=time], .lodurMobile-form select {
+  padding: 0.4rem 0.3rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dadada;
+  background-color: #ffffff;
+  font-size: 0.875rem;
+  margin-top: 0.150rem;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 36px; }
+
+.lodurMobile-form textarea {
+  padding: 0.4rem 0.3rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dadada;
+  background-color: #ffffff;
+  font-size: 0.875rem;
+  margin-top: 0.150rem;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.lodurMobile-form label {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0; }
+
+.lodurMobile-form--datePicker, .lodurMobile-form--timePicker {
+  position: absolute;
+  right: 15px;
+  bottom: 20px; }
+
 body {
   background: #ffffff; }
 
 .homepageModule-wrapper {
   max-width: 100%; }
+  .homepageModule-wrapper .lodur-blue--button {
+    background-color: #0d9ed6;
+    color: #fff; }
   .homepageModule-wrapper span.lodur-icon-arrow-thin-left {
     font-size: 30px;
     color: #a4a4a4; }
@@ -1076,19 +1112,28 @@ body {
           -webkit-transition: opacity 0.5s;
           opacity: 1; }
   .homepageModule-wrapper .hpm-edit--panel {
-    padding: 30px 25px;
+    padding: 30px 0;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
     background-color: #ffffff;
     position: fixed;
     width: 20%;
     height: 93vh;
-    margin: 30px 0 0 0; }
+    margin: 30px 0 0 15px; }
     .homepageModule-wrapper .hpm-edit--panel h2 {
       font-size: 16px;
       font-weight: bold;
-      margin: 0 0 30px 0; }
+      margin: 0 0 6px; }
+    .homepageModule-wrapper .hpm-edit--panel p.hpm--subHeadline {
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.4;
+      letter-spacing: normal;
+      text-align: left;
+      color: #707070; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
-      padding: 0 0 25px;
+      padding: 0 25px 25px;
       margin: 0 0 40px; }
       .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
         padding: 0;
@@ -1112,29 +1157,128 @@ body {
               background-color: #E9C13D; }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li.selected--color a span {
             border: solid 3px #ffffff;
-            background-color: #e94c3d;
             box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
-      font-size: 14px;
-      outline-style: dashed;
-      outline-width: 1px;
-      outline-color: #a4a4a4;
-      height: 130px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo {
-      padding: 40px 0 0 0;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
-        font-size: 20px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo {
+      padding: 0 25px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
+        font-size: 14px;
+        outline-style: dashed;
+        outline-width: 1px;
+        outline-color: #a4a4a4;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo {
+        padding: 40px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
+          font-size: 20px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage {
+      padding: 0 25px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul {
+        margin: 0;
+        padding: 0;
+        width: 100%; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li {
+          border-bottom: 3px solid #E8EBF2;
+          float: left;
+          list-style-type: none;
+          width: 50%;
+          text-align: center; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li.selected {
+            border-bottom: 3px solid #0055FF; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a {
+            display: block;
+            padding: 10px 0; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a:hover {
+              text-decoration: none; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage .hpm--headerImage img {
+        object-fit: cover;
+        width: 100%;
+        height: 110px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul {
+      padding: 0;
+      margin: 30px 0 0;
+      float: left; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li {
+        display: inline-block;
+        margin: 0;
+        padding: 0 2px 2px 0;
+        border: none; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a {
+          padding: initial; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a img {
+            object-fit: cover;
+            width: 100%;
+            height: 110px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu {
+      padding: 0 25px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
+        margin: 0;
+        padding: 0; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li {
+          display: inline-block; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a {
+            display: block;
+            border: 3px solid #fff; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
+              border: 3px solid #0055FF;
+              border-radius: 10px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul {
+        margin: 0;
+        padding: 0; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li {
+          margin: 0;
+          padding: 0;
+          width: 100%; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu {
+            font-size: 14px;
+            background-color: #E6E6E6;
+            padding: 8px 15px;
+            display: flex;
+            margin: 0 0 3px;
+            align-items: center;
+            justify-content: space-between; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a {
+              border: initial; }
+              .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a:hover {
+                text-decoration: none; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu span {
+              font-size: 12px;
+              color: #a5a5a5; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu ul {
+              padding: 0 0 0 30px; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li .hpm-subMenu {
+            padding: 0 0 0 30px; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
       position: absolute;
-      bottom: 0; }
+      bottom: 0;
+      width: 100%;
+      background-color: #fff; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar {
+        background-color: #E9E9E9;
+        height: 3px;
+        margin-bottom: 15px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar .hpm--statusBar--complete {
+          background-color: #2baf6d;
+          width: 30%;
+          height: 3px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 25px 15px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons .hpm-statusInfo {
+          display: flex;
+          align-items: center;
+          font-size: 14px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons span.lodur-icon-arrow-thin-left {
+          color: #ffffff;
+          font-size: 28px; }
   .homepageModule-wrapper .hpm-templatePreview {
     padding: 0 30px 0 0; }
     .homepageModule-wrapper .hpm-templatePreview img {
