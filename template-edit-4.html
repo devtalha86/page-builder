@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Builder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container homepageModule-wrapper">
+        <div class="row">    
+            <div class="col-12 col-lg-12">
+                <div class="hpm-edit--panel">
+                    <div class="hpm-sidebar--scroller">
+                        <div class="hpm-select--font">
+
+                            <h2>Select a font pair</h2>
+                            <p class="hpm--subHeadline">Choose your favorite type style</p>
+
+                            <ul class="hpm--font-selection mt-5">
+                                <li>
+                                    <a style="font-family: monospace;" class="selected" href="#">
+                                        <p class="hpm-demoText--heading">Monospace</p>
+                                        <p class="hpm-demoText--body">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a style="font-family: Arial, Helvetica, sans-serif;" href="#">
+                                        <p class="hpm-demoText--heading">Arial</p>
+                                        <p class="hpm-demoText--body">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a style="font-family: 'Courier New', Courier, monospace;" href="#">
+                                        <p class="hpm-demoText--heading">Courier New</p>
+                                        <p class="hpm-demoText--body">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a style="font-family: 'Times New Roman', Times, serif;" href="#">
+                                        <p class="hpm-demoText--heading">Times New Roman</p>
+                                        <p class="hpm-demoText--body">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                        
+                    <div class="hpm-template--buttons">
+                        <div class="hpm--statusBar">
+                            <div class="hpm--statusBar--complete"></div>
+                        </div>
+                        <div class="hpm-status--buttons">
+                            <div class="hpm-statusInfo">80% done</div>
+                            <div>
+                                <a href="template-edit-3.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
+                                <a href="template-edit-5.html" class="btn btn-primary lodur-blue--button">Continue</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="hpm-templatePreview">
+                    <img src="assets/image/template-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+
+
+    <script>
+
+    $(".hpm--font-selection li a").click(function () { 
+        if($(this).removeClass("selected"))
+            $(".hpm--font-selection li a").removeClass("selected");               
+        $(this).addClass("selected");        
+    });
+
+
+
+
+    </script>
+            
+
+</body>
+</html>

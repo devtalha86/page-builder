@@ -1,3 +1,10 @@
 @mixin homepageModule-title{
     font-size: 26px;
 }
+
+@mixin hpm-sidebar--scroller{
+    overflow: auto;
+    height: calc(100vh - 111px);
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
