@@ -926,411 +926,472 @@
 body {
   background: #ffffff; }
 
-.homepageModule-wrapper {
-  max-width: 100%; }
-  .homepageModule-wrapper .lodur-blue--button {
-    background-color: #0d9ed6;
-    color: #fff; }
-  .homepageModule-wrapper span.lodur-icon-arrow-thin-left {
-    font-size: 30px;
-    color: #a4a4a4; }
-  .homepageModule-wrapper .homepageModule-tips {
-    font-size: 12px;
-    color: #707070; }
-  .homepageModule-wrapper input.homepageModule-companyName {
-    width: 370px;
-    height: 35px;
-    border-radius: 4px;
-    border: solid 1px #aaaaaa;
-    background-color: #ffffff;
-    padding: 0 10px; }
-  .homepageModule-wrapper button.homepageModule-btn {
-    width: 98px;
-    height: 35px;
-    border-radius: 5px;
-    background-color: #0d9ed6; }
-  .homepageModule-wrapper a.homepageModule-backNav {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem; }
-    .homepageModule-wrapper a.homepageModule-backNav:hover {
-      outline: none;
-      text-decoration: none; }
-      .homepageModule-wrapper a.homepageModule-backNav:hover span.lodur-icon-arrow-thin-left {
-        color: #000; }
-      .homepageModule-wrapper a.homepageModule-backNav:hover p {
-        color: #000; }
-  .homepageModule-wrapper .flexbox-end {
-    position: absolute;
-    bottom: 15%; }
-  .homepageModule-wrapper .homepageModule-backNav p {
-    font-size: 14px;
-    color: #858585;
+.homepageModule-wrapper .container {
+  max-width: 1500px; }
+
+.homepageModule-wrapper .lodur-blue--button {
+  background-color: #0d9ed6;
+  color: #fff; }
+
+.homepageModule-wrapper span.lodur-icon-arrow-thin-left {
+  font-size: 30px;
+  color: #a4a4a4; }
+
+.homepageModule-wrapper .homepageModule-tips {
+  font-size: 12px;
+  color: #707070; }
+
+.homepageModule-wrapper input.homepageModule-companyName {
+  width: 370px;
+  height: 35px;
+  border-radius: 4px;
+  border: solid 1px #aaaaaa;
+  background-color: #ffffff;
+  padding: 0 10px; }
+
+.homepageModule-wrapper button.homepageModule-btn {
+  width: 98px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #0d9ed6; }
+
+.homepageModule-wrapper a.homepageModule-backNav {
+  display: block;
+  margin-bottom: 5rem; }
+  .homepageModule-wrapper a.homepageModule-backNav:hover {
+    outline: none;
+    text-decoration: none; }
+    .homepageModule-wrapper a.homepageModule-backNav:hover span.lodur-icon-arrow-thin-left {
+      color: #000; }
+    .homepageModule-wrapper a.homepageModule-backNav:hover p {
+      color: #000; }
+
+.homepageModule-wrapper .flexbox-end {
+  position: absolute;
+  bottom: 15%; }
+
+.homepageModule-wrapper .homepageModule-backNav p {
+  font-size: 14px;
+  color: #858585;
+  margin: 0;
+  padding: 0; }
+
+.homepageModule-wrapper .templatePreview-liveThumb {
+  float: left;
+  margin-right: 50px; }
+
+.homepageModule-wrapper .homepageModule-title h1 {
+  font-size: 26px; }
+
+.homepageModule-wrapper .homepageModule-title span {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070; }
+
+.homepageModule-wrapper .templatePreview-details {
+  display: flex; }
+  .homepageModule-wrapper .templatePreview-details .preview-menu {
+    display: table; }
+    .homepageModule-wrapper .templatePreview-details .preview-menu a {
+      width: 30px;
+      height: 30px;
+      margin-top: 5px;
+      text-align: center;
+      display: block; }
+      .homepageModule-wrapper .templatePreview-details .preview-menu a:hover {
+        border-radius: 4px;
+        background-color: #f3f3f3;
+        cursor: pointer; }
+    .homepageModule-wrapper .templatePreview-details .preview-menu:hover {
+      border-radius: 4px;
+      background-color: #f3f3f3; }
+      .homepageModule-wrapper .templatePreview-details .preview-menu:hover ul {
+        display: block;
+        position: absolute; }
+  .homepageModule-wrapper .templatePreview-details ul {
+    width: 177px;
+    display: none;
     margin: 0;
-    padding: 0; }
-  .homepageModule-wrapper .templatePreview-liveThumb {
-    float: left;
-    margin-right: 50px; }
-  .homepageModule-wrapper .homepageModule-title h1 {
-    font-size: 26px; }
-  .homepageModule-wrapper .homepageModule-title span {
+    padding: 0;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff; }
+    .homepageModule-wrapper .templatePreview-details ul li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0 0 0 20px; }
+      .homepageModule-wrapper .templatePreview-details ul li:hover {
+        background-color: #f1f1f1;
+        text-decoration: none;
+        cursor: pointer; }
+      .homepageModule-wrapper .templatePreview-details ul li a {
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.8;
+        letter-spacing: normal;
+        text-align: left;
+        color: #000000;
+        display: initial !important; }
+        .homepageModule-wrapper .templatePreview-details ul li a:hover {
+          background-color: #f1f1f1;
+          text-decoration: none; }
+
+.homepageModule-wrapper .homepageModule-drafts {
+  padding: 0; }
+  .homepageModule-wrapper .homepageModule-drafts ul {
+    padding: 0;
+    margin: 0; }
+    .homepageModule-wrapper .homepageModule-drafts ul li {
+      padding: 0;
+      margin: 30px 30px 0 0;
+      list-style-type: none;
+      float: left;
+      position: relative; }
+      .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-draft-name {
+        padding-top: 8px;
+        font-size: 12px; }
+      .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-published--status {
+        background-color: #2baf6d;
+        color: #ffffff;
+        text-align: center;
+        padding: 6px 0;
+        position: absolute;
+        bottom: 26px;
+        font-size: 14px;
+        width: 100%; }
+      .homepageModule-wrapper .homepageModule-drafts ul li:first-child a {
+        width: 209px;
+        height: 277px;
+        display: flex;
+        border: dashed 1px #8f8f8f;
+        align-items: center;
+        justify-content: center;
+        color: #000; }
+        .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover {
+          cursor: pointer;
+          text-decoration: none; }
+          .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover span.lodur-icon-add {
+            background-color: rgba(0, 0, 0, 0.6);
+            transition: background-color 200ms linear;
+            color: #ffffff; }
+        .homepageModule-wrapper .homepageModule-drafts ul li:first-child a span.lodur-icon-add {
+          width: 60px;
+          height: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 20px;
+          border-radius: 50%;
+          background-color: #e8e8e8;
+          transition: background-color 200ms linear; }
+      .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        width: 209px;
+        height: 277px;
+        transition: opacity 0.3s;
+        -webkit-transition: opacity 0.3s;
+        opacity: 0; }
+        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button {
+          display: block;
+          width: 85px;
+          margin-bottom: 15px;
+          border-radius: 5px;
+          background-color: #0d9ed6;
+          color: #fff;
+          border: 1px solid #0d9ed6;
+          transition: background-color 200ms linear;
+          font-weight: 400; }
+          .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button:hover {
+            background-color: #0080b3;
+            border: 1px solid #0080b3;
+            color: #fff;
+            transition: background-color 200ms linear;
+            cursor: pointer; }
+      .homepageModule-wrapper .homepageModule-drafts ul li:hover .homepageModule-draft--overlay {
+        transition: opacity 0.5s;
+        -webkit-transition: opacity 0.5s;
+        opacity: 1; }
+
+.homepageModule-wrapper .hpm-edit--panel {
+  padding: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
+  background-color: #ffffff;
+  position: fixed;
+  width: 400px;
+  height: 93vh;
+  margin: 30px 0 0 15px; }
+  .homepageModule-wrapper .hpm-edit--panel h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 6px; }
+  .homepageModule-wrapper .hpm-edit--panel p.hpm--subHeadline {
     font-size: 14px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.86;
+    line-height: 1.4;
     letter-spacing: normal;
     text-align: left;
     color: #707070; }
-  .homepageModule-wrapper .templatePreview-details {
-    display: flex; }
-    .homepageModule-wrapper .templatePreview-details .preview-menu {
-      display: table; }
-      .homepageModule-wrapper .templatePreview-details .preview-menu a {
-        width: 30px;
-        height: 30px;
-        margin-top: 5px;
-        text-align: center;
-        display: block; }
-        .homepageModule-wrapper .templatePreview-details .preview-menu a:hover {
-          border-radius: 4px;
-          background-color: #f3f3f3;
-          cursor: pointer; }
-      .homepageModule-wrapper .templatePreview-details .preview-menu:hover {
-        border-radius: 4px;
-        background-color: #f3f3f3; }
-        .homepageModule-wrapper .templatePreview-details .preview-menu:hover ul {
-          display: block;
-          position: absolute; }
-    .homepageModule-wrapper .templatePreview-details ul {
-      width: 177px;
-      display: none;
-      margin: 0;
-      padding: 0;
-      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
-      background-color: #ffffff; }
-      .homepageModule-wrapper .templatePreview-details ul li {
-        list-style-type: none;
-        margin: 0;
-        padding: 0 0 0 20px; }
-        .homepageModule-wrapper .templatePreview-details ul li:hover {
-          background-color: #f1f1f1;
-          text-decoration: none;
-          cursor: pointer; }
-        .homepageModule-wrapper .templatePreview-details ul li a {
-          font-size: 16px;
-          font-weight: normal;
-          font-stretch: normal;
-          font-style: normal;
-          line-height: 2.8;
-          letter-spacing: normal;
-          text-align: left;
-          color: #000000;
-          display: initial !important; }
-          .homepageModule-wrapper .templatePreview-details ul li a:hover {
-            background-color: #f1f1f1;
-            text-decoration: none; }
-  .homepageModule-wrapper .homepageModule-drafts {
-    padding: 0; }
-    .homepageModule-wrapper .homepageModule-drafts ul {
+  .homepageModule-wrapper .hpm-edit--panel .hpm-sidebar--scroller {
+    overflow: auto;
+    height: calc(100vh - 111px);
+    padding-bottom: 40px;
+    padding-top: 40px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
+    padding: 0 25px 25px;
+    margin: 0 0 40px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
       padding: 0;
       margin: 0; }
-      .homepageModule-wrapper .homepageModule-drafts ul li {
-        padding: 0;
-        margin: 30px 30px 0 0;
-        list-style-type: none;
-        float: left;
-        position: relative; }
-        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-draft-name {
-          padding-top: 8px;
-          font-size: 12px; }
-        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft-thumb .homepageModule-published--status {
-          background-color: #2baf6d;
-          color: #ffffff;
-          text-align: center;
-          padding: 6px 0;
-          position: absolute;
-          bottom: 26px;
-          font-size: 14px;
-          width: 100%; }
-        .homepageModule-wrapper .homepageModule-drafts ul li:first-child a {
-          width: 209px;
-          height: 277px;
-          display: flex;
-          border: dashed 1px #8f8f8f;
-          align-items: center;
-          justify-content: center;
-          color: #000; }
-          .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover {
-            cursor: pointer;
-            text-decoration: none; }
-            .homepageModule-wrapper .homepageModule-drafts ul li:first-child a:hover span.lodur-icon-add {
-              background-color: rgba(0, 0, 0, 0.6);
-              transition: background-color 200ms linear;
-              color: #ffffff; }
-          .homepageModule-wrapper .homepageModule-drafts ul li:first-child a span.lodur-icon-add {
-            width: 60px;
-            height: 60px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 20px;
-            border-radius: 50%;
-            background-color: #e8e8e8;
-            transition: background-color 200ms linear; }
-        .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay {
-          background-color: rgba(0, 0, 0, 0.5);
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          position: absolute;
-          top: 0;
-          width: 209px;
-          height: 277px;
-          transition: opacity 0.3s;
-          -webkit-transition: opacity 0.3s;
-          opacity: 0; }
-          .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button {
-            display: block;
-            width: 85px;
-            margin-bottom: 15px;
-            border-radius: 5px;
-            background-color: #0d9ed6;
-            color: #fff;
-            border: 1px solid #0d9ed6;
-            transition: background-color 200ms linear;
-            font-weight: 400; }
-            .homepageModule-wrapper .homepageModule-drafts ul li .homepageModule-draft--overlay button:hover {
-              background-color: #0080b3;
-              border: 1px solid #0080b3;
-              color: #fff;
-              transition: background-color 200ms linear;
-              cursor: pointer; }
-        .homepageModule-wrapper .homepageModule-drafts ul li:hover .homepageModule-draft--overlay {
-          transition: opacity 0.5s;
-          -webkit-transition: opacity 0.5s;
-          opacity: 1; }
-  .homepageModule-wrapper .hpm-edit--panel {
-    padding: 0;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.24);
-    background-color: #ffffff;
-    position: fixed;
-    width: 400px;
-    height: 93vh;
-    margin: 30px 0 0 15px; }
-    .homepageModule-wrapper .hpm-edit--panel h2 {
-      font-size: 16px;
-      font-weight: bold;
-      margin: 0 0 6px; }
-    .homepageModule-wrapper .hpm-edit--panel p.hpm--subHeadline {
+      .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li {
+        display: inline-block;
+        padding: 0 4px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span {
+          width: 32px;
+          height: 32px;
+          display: block; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.red {
+            background-color: #E94C3D; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.green {
+            background-color: #3DE971; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.grey {
+            background-color: #848484; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.blue {
+            background-color: #0AC4FF; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.yellow {
+            background-color: #E9C13D; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li.selected--color a span {
+          border: solid 3px #ffffff;
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
       font-size: 14px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: 1.4;
-      letter-spacing: normal;
-      text-align: left;
-      color: #707070; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-sidebar--scroller {
-      overflow: auto;
-      height: calc(100vh - 111px);
-      padding-bottom: 40px;
-      padding-top: 40px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
-      padding: 0 25px 25px;
-      margin: 0 0 40px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
+      outline-style: dashed;
+      outline-width: 1px;
+      outline-color: #a4a4a4;
+      height: 130px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo {
+      padding: 40px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
+        font-size: 20px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul {
+      margin: 0;
+      padding: 0;
+      width: 100%; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li {
+        border-bottom: 3px solid #E8EBF2;
+        float: left;
+        list-style-type: none;
+        width: 50%;
+        text-align: center; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li.selected {
+          border-bottom: 3px solid #0055FF; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a {
+          display: block;
+          padding: 10px 0; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a:hover {
+            text-decoration: none; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage .hpm--headerImage img {
+      object-fit: cover;
+      width: 100%;
+      height: 110px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul {
+    padding: 0;
+    margin: 30px 0 0;
+    float: left; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li {
+      display: inline-block;
+      margin: 0;
+      padding: 0 2px 2px 0;
+      border: none; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a {
+        padding: initial; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a img {
+          object-fit: cover;
+          width: 100%;
+          height: 110px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
+      margin: 0;
+      padding: 0; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li {
+        display: inline-block;
+        padding: 0 2px 0 0; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a {
+          display: block;
+          border: 2px solid #fff; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
+            border: 2px solid #0055FF;
+            border-radius: 10px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul {
+      margin: 0;
+      padding: 0; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li {
+        margin: 0;
         padding: 0;
-        margin: 0; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li {
-          display: inline-block;
-          padding: 0 4px; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span {
-            width: 32px;
-            height: 32px;
-            display: block; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.red {
-              background-color: #E94C3D; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.green {
-              background-color: #3DE971; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.grey {
-              background-color: #848484; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.blue {
-              background-color: #0AC4FF; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.yellow {
-              background-color: #E9C13D; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li.selected--color a span {
-            border: solid 3px #ffffff;
-            box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo {
-      padding: 0 25px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
-        font-size: 14px;
-        outline-style: dashed;
-        outline-width: 1px;
-        outline-color: #a4a4a4;
-        height: 130px;
+        width: 100%; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu {
+          font-size: 14px;
+          background-color: #E6E6E6;
+          padding: 8px 15px;
+          display: flex;
+          margin: 0 0 3px;
+          align-items: center;
+          justify-content: space-between; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a {
+            border: initial;
+            color: #000; }
+            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a:hover {
+              text-decoration: none; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu span {
+            font-size: 12px;
+            color: #a5a5a5; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu ul {
+            padding: 0 0 0 30px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li .hpm-subMenu {
+          padding: 0 0 0 30px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-select--font {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection {
+      margin: 0;
+      padding: 0; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li {
+        list-style-type: none;
+        padding: 0 0 15px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a {
+          display: block;
+          border: 2px solid #E4E4E4;
+          border-radius: 12px;
+          padding: 15px 25px 5px;
+          color: #000; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a:hover {
+            text-decoration: none; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a.selected {
+            border: 2px solid #0055FF; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--heading {
+            font-size: 16px;
+            margin-bottom: 0.5rem; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--body {
+            font-size: 14px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul {
+      margin: 0;
+      padding: 0;
+      width: 100%; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li {
+        border-bottom: 3px solid #E8EBF2;
+        float: left;
+        list-style-type: none;
+        width: 50%;
+        text-align: center; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li.selected {
+          border-bottom: 3px solid #0055FF; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a {
+          display: block;
+          padding: 10px 0; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a:hover {
+            text-decoration: none; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar {
+      background-color: #E9E9E9;
+      height: 3px;
+      margin-bottom: 15px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar .hpm--statusBar--complete {
+        background-color: #2baf6d;
+        width: 30%;
+        height: 3px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 25px 15px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons .hpm-statusInfo {
+        display: flex;
+        align-items: center;
+        font-size: 14px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons span.lodur-icon-arrow-thin-left {
+        color: #ffffff;
+        font-size: 28px; }
+
+.homepageModule-wrapper .hpm-templatePreview {
+  padding: 0 15px 0 0;
+  padding-left: 30rem; }
+  .homepageModule-wrapper .hpm-templatePreview img {
+    object-fit: contain;
+    width: 100%;
+    border: 1px solid #858585; }
+
+.homepageModule-wrapper .hpm-pageEdit--actions {
+  display: flex;
+  justify-content: space-between; }
+  .homepageModule-wrapper .hpm-pageEdit--actions ul {
+    display: flex;
+    margin: 0;
+    padding: 0; }
+    .homepageModule-wrapper .hpm-pageEdit--actions ul li {
+      list-style-type: none; }
+      .homepageModule-wrapper .hpm-pageEdit--actions ul li a {
+        color: #000;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo {
-        padding: 40px 0 0 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
-          font-size: 20px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage {
-      padding: 0 25px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul {
-        margin: 0;
-        padding: 0;
-        width: 100%; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li {
-          border-bottom: 3px solid #E8EBF2;
-          float: left;
-          list-style-type: none;
-          width: 50%;
-          text-align: center; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li.selected {
-            border-bottom: 3px solid #0055FF; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a {
-            display: block;
-            padding: 10px 0; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul li a:hover {
-              text-decoration: none; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage .hpm--headerImage img {
-        object-fit: cover;
-        width: 100%;
-        height: 110px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul {
-      padding: 0;
-      margin: 30px 0 0;
-      float: left; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li {
-        display: inline-block;
-        margin: 0;
-        padding: 0 2px 2px 0;
-        border: none; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a {
-          padding: initial; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-stock-photos ul li a img {
-            object-fit: cover;
-            width: 100%;
-            height: 110px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu {
-      padding: 0 25px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
-        margin: 0;
-        padding: 0; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li {
-          display: inline-block;
-          padding: 0 2px 0 0; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a {
-            display: block;
-            border: 2px solid #fff; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
-              border: 2px solid #0055FF;
-              border-radius: 10px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul {
-        margin: 0;
-        padding: 0; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li {
-          margin: 0;
-          padding: 0;
-          width: 100%; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu {
-            font-size: 14px;
-            background-color: #E6E6E6;
-            padding: 8px 15px;
-            display: flex;
-            margin: 0 0 3px;
-            align-items: center;
-            justify-content: space-between; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a {
-              border: initial;
-              color: #000; }
-              .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a:hover {
-                text-decoration: none; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu span {
-              font-size: 12px;
-              color: #a5a5a5; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu ul {
-              padding: 0 0 0 30px; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li .hpm-subMenu {
-            padding: 0 0 0 30px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-select--font {
-      padding: 0 25px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection {
-        margin: 0;
-        padding: 0; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li {
-          list-style-type: none;
-          padding: 0 0 15px; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a {
-            display: block;
-            border: 2px solid #E4E4E4;
-            border-radius: 12px;
-            padding: 15px 25px 5px;
-            color: #000; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a:hover {
-              text-decoration: none; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a.selected {
-              border: 2px solid #0055FF; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--heading {
-              font-size: 16px;
-              margin-bottom: 0.5rem; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--body {
-              font-size: 14px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails {
-      padding: 0 25px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul {
-        margin: 0;
-        padding: 0;
-        width: 100%; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li {
-          border-bottom: 3px solid #E8EBF2;
-          float: left;
-          list-style-type: none;
-          width: 50%;
-          text-align: center; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li.selected {
-            border-bottom: 3px solid #0055FF; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a {
-            display: block;
-            padding: 10px 0; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a:hover {
-              text-decoration: none; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      background-color: #fff; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar {
-        background-color: #E9E9E9;
-        height: 3px;
-        margin-bottom: 15px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm--statusBar .hpm--statusBar--complete {
-          background-color: #2baf6d;
-          width: 30%;
-          height: 3px; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 25px 15px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons .hpm-statusInfo {
-          display: flex;
-          align-items: center;
-          font-size: 14px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons .hpm-status--buttons span.lodur-icon-arrow-thin-left {
-          color: #ffffff;
-          font-size: 28px; }
-  .homepageModule-wrapper .hpm-templatePreview {
-    padding: 0 15px 0 0;
-    padding-left: 445px; }
-    .homepageModule-wrapper .hpm-templatePreview img {
-      object-fit: contain;
-      width: 100%; }
+        padding: 0 40px 0 0; }
+        .homepageModule-wrapper .hpm-pageEdit--actions ul li a span:first-child {
+          font-size: 25px; }
+        .homepageModule-wrapper .hpm-pageEdit--actions ul li a span:last-child {
+          font-size: 14px;
+          margin-top: 8px; }
+      .homepageModule-wrapper .hpm-pageEdit--actions ul li:hover a {
+        color: #0055FF;
+        text-decoration: none; }
+  .homepageModule-wrapper .hpm-pageEdit--actions form.hpm-pageSelection {
+    display: block; }
+    .homepageModule-wrapper .hpm-pageEdit--actions form.hpm-pageSelection span {
+      margin-right: 15px;
+      font-weight: bold; }
+    .homepageModule-wrapper .hpm-pageEdit--actions form.hpm-pageSelection select {
+      border: navajowhite;
+      border-radius: 6px;
+      background-color: antiquewhite;
+      padding: 10px 20px;
+      width: 300px;
+      background-image: url(../assets/image/select-arrow.png);
+      background-position: 95%;
+      background-repeat: no-repeat;
+      -moz-appearance: none;
+      /* Firefox */
+      -webkit-appearance: none;
+      /* Safari and Chrome */
+      appearance: none; }
+
+.homepageModule-wrapper .hpm-pageEditor {
+  padding-top: 2rem; }
