@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Builder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container-fluid homepageModule-wrapper">
+        <div class="row">    
+            <div class="col-12 col-lg-12">
+                <div class="hpm-edit--panel">
+                    <div class="hpm-sidebar--scroller">
+                        <div class="hpm-blog">
+
+                            <h2>Blog</h2>
+                            <p class="hpm--subHeadline">Add articles and images.</p>
+
+                            <ul class="nav mt-4">
+                                <li class="active selected"><a href="#1a" data-toggle="tab">News</a></li>
+                                <li><a href="#2a" data-toggle="tab">PDF</a></li>
+                            </ul>
+                            <div class="tab-content clearfix">
+                                <div id="1a" class="tab-pane p-0 mt-4 active">
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div id="msg"></div>
+                                            <form method="post" id="image-form">
+                                                <input type="file" name="img[]" class="file" accept="image/*">
+                                                <div class="input-group my-3">
+                                                    <input type="text" class="form-control" disabled placeholder="Upload Image" id="file">
+                                                    <div class="input-group-append">
+                                                        <button type="button" class="browse btn btn-primary">Browse...</button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <img src="" style="display: none; max-height: 160px;" id="preview" class="img-thumbnail">
+                                        </div>
+                                    </div>
+                                    
+                                    <form class="lodurMobile-form" action="">
+                                        
+                                        <div class="row mt-4">
+                                            <div class="col-lg-12">
+                                                <label for="">Article Title</label>
+                                                <input class="" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <label for="">Details</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </form>
+
+                                        
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <a href="#" class="btn btn-primary lodur-blue--button">Create Post</a>
+                                        </div>
+                                    </div>
+                                        
+                                   
+                                </div>
+                                <div id="2a" class="tab-pane p-0 mt-5">
+                                    <form class="lodurMobile-form" action="">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-primary lodur-blue--button" data-toggle="modal" data-target="#addNewPDF">Add New PDF</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul class="pdfUpload">
+                                                    <li>
+                                                        <div>
+                                                            <span class="lodur-icon-pdf"></span>
+                                                            <span>SGV-info zur Fasnacht...</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="lodur-icon-edit"></span>
+                                                            <span class="lodur-icon-bin"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span class="lodur-icon-pdf"></span>
+                                                            <span>SGV-info zur Fasnacht...</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="lodur-icon-edit"></span>
+                                                            <span class="lodur-icon-bin"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span class="lodur-icon-pdf"></span>
+                                                            <span>SGV-info zur Fasnacht...</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="lodur-icon-edit"></span>
+                                                            <span class="lodur-icon-bin"></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div>
+                                                            <span class="lodur-icon-pdf"></span>
+                                                            <span>SGV-info zur Fasnacht...</span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="lodur-icon-edit"></span>
+                                                            <span class="lodur-icon-bin"></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="hpm-template--buttons">
+                            <div class="hpm--statusBar">
+                                <div class="hpm--statusBar--complete"></div>
+                            </div>
+                            <div class="hpm-status--buttons">
+                                <div class="hpm-statusInfo">Complete!</div>
+                                <div>
+                                    <a href="template-edit-4.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
+                                    <a href="#" class="btn btn-primary lodur-blue--button">Update Page</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="hpm-templatePreview">
+                    <img src="assets/image/template-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add New PDF Modal -->
+
+<div class="modal fade" id="addNewPDF" tabindex="-1" role="dialog" aria-labelledby="addNewPDF" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Add new PDF</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form class="lodurMobile-form" action="">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="">Upload PDF</label><br>
+                        <input style="margin-top: 0.6rem;" type="file" id="pdf-upload"/>
+                    </div>
+                </div>
+                                        
+                <div class="row mt-4">
+                    <div class="col-lg-12">
+                        <label for="">PDF Title</label>
+                        <input class="" type="text">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <label for="">Details</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Upload PDF</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+
+
+    <script>
+
+    $(".hpm-blog ul.nav li").click(function () { 
+        if($(this).removeClass("selected"))
+            $(".hpm-blog ul.nav li").removeClass("selected");               
+        $(this).addClass("selected");        
+    });
+
+
+    $(document).on("click", ".browse", function() {
+        var file = $(this).parents().find(".file");
+        file.trigger("click");
+        });
+        $('input[type="file"]').change(function(e) {
+        var fileName = e.target.files[0].name;
+        $("#file").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview").src = e.target.result;
+            $('#preview').css('display', 'block');
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+
+
+
+    </script>
+            
+
+</body>
+</html>

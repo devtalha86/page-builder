@@ -578,6 +578,79 @@ body {
       }
       
     }
+    .hpm-blog{
+      padding: 0 25px;
+      ul{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        li{
+          border-bottom: 3px solid #E8EBF2;
+          float: left;
+          list-style-type: none;
+          width: 50%;
+          text-align: center;
+          &.selected{
+            border-bottom: 3px solid #0055FF;
+          }
+          a{
+            display: block;
+            padding: 10px 0;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .file {
+        visibility: hidden;
+        position: absolute;
+      }
+    
+      ul.pdfUpload{
+        margin: 2rem 0 0 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        li{
+          margin: 0;
+          padding: 10px 0;
+          display: flex;
+          width: 100%;
+          justify-content: space-between;
+          
+          div:first-child{
+            display: flex;
+            align-items: center;
+            span.lodur-icon-pdf{
+              color: #EA4C3A;
+              font-size: 1.5rem;
+              margin-right: 0.7rem;
+            }
+            span:nth-child(2){
+              font-size: .8rem;
+              font-weight: bold;
+            }
+          }
+          div:last-child{
+            span{
+              cursor: pointer;
+              color: #8B8B8B;
+              &:hover{
+                color: initial;
+              }
+            }
+            span:first-child{
+              margin-right: 0.8rem;
+            }
+          }
+        }
+      }
+      
+    }
+
+
+
     .hpm-template--buttons{
       position: absolute;
       bottom: 0;
@@ -674,6 +747,14 @@ body {
   }
   .hpm-pageEditor{
     padding-top: 2rem;
+  }
+
+  
+}
+
+#addNewPDF{
+  .modal-dialog{
+    max-width: 600px;
   }
 }
 

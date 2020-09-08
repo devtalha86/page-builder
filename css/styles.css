@@ -1317,6 +1317,56 @@ body {
           padding: 10px 0; }
           .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a:hover {
             text-decoration: none; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-blog {
+    padding: 0 25px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul {
+      margin: 0;
+      padding: 0;
+      width: 100%; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li {
+        border-bottom: 3px solid #E8EBF2;
+        float: left;
+        list-style-type: none;
+        width: 50%;
+        text-align: center; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li.selected {
+          border-bottom: 3px solid #0055FF; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li a {
+          display: block;
+          padding: 10px 0; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li a:hover {
+            text-decoration: none; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .file {
+      visibility: hidden;
+      position: absolute; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload {
+      margin: 2rem 0 0 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li {
+        margin: 0;
+        padding: 10px 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-between; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child {
+          display: flex;
+          align-items: center; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span.lodur-icon-pdf {
+            color: #EA4C3A;
+            font-size: 1.5rem;
+            margin-right: 0.7rem; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span:nth-child(2) {
+            font-size: .8rem;
+            font-weight: bold; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span {
+          cursor: pointer;
+          color: #8B8B8B; }
+          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:hover {
+            color: initial; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:first-child {
+          margin-right: 0.8rem; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
     position: absolute;
     bottom: 0;
@@ -1395,3 +1445,6 @@ body {
 
 .homepageModule-wrapper .hpm-pageEditor {
   padding-top: 2rem; }
+
+#addNewPDF .modal-dialog {
+  max-width: 600px; }
