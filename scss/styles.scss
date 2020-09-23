@@ -47,6 +47,12 @@ margin-bottom: 10px;
   padding: 0;
 }
 
+.lodurMobile-form input[type=checkbox]{
+  margin: 0;
+  padding: 0;
+  
+}
+
 .lodurMobile-form--datePicker, .lodurMobile-form--timePicker{
   position: absolute;
   right: 15px;
@@ -339,9 +345,7 @@ body {
       @include hpm-sidebar--scroller;
     }
     .hpm-colorSelection{
-      padding: 0 25px 25px;
-      margin: 0 0 40px;
-      // border-bottom: 1px solid #DEDEDE;
+      @include edit-section--spacing;
       ul {
         padding: 0;
         margin: 0;
@@ -350,23 +354,23 @@ body {
           padding: 0 4px;
           a {
             span{
-              width: 32px;
-              height: 32px;
+              width: 55px;
+              height: 30px;
               display: block;
               &.red{
-                background-color: #E94C3D;
+                background: linear-gradient(-90deg, #EA4B3A 50%, #D42B19 50%);
               }
               &.green{
-                background-color: #3DE971;
+                background: linear-gradient(-90deg, #3DE971 50%,  #329750 50%);
               }
               &.grey{
-                background-color: #848484;
+                background: linear-gradient(-90deg, #848484 50%,  #575757 50%);
               }
               &.blue{
-                background-color: #0AC4FF;
+                background: linear-gradient(-90deg, #0AC4FF 50%,  #1e7f9c 50%);
               }
               &.yellow{
-                background-color: #E9C13D;
+                background: linear-gradient(-90deg, #E9C13D 50%,  #ac9137 50%);
               }
             }
           }
@@ -383,8 +387,7 @@ body {
       } 
     }
     .hpm-uploadLogo{
-      padding: 0 25px;
-      
+      @include edit-section--spacing;
       .hpm--uploader{
         font-size: 14px;
         
@@ -409,7 +412,7 @@ body {
       }
     }
     .hpm-headerImage{
-      padding: 0 25px;
+      @include edit-section--spacing;
       ul{
         margin: 0;
         padding: 0;
@@ -462,7 +465,7 @@ body {
       }
     }
     .hpm-navigationMenu{
-      padding: 0 25px;
+      @include edit-section--spacing;
       ul{
         margin: 0;
         padding: 0;
@@ -479,50 +482,54 @@ body {
           }
         }
       }
-      .hpm-menuSetting{
-        ul{
+      
+    }
+
+    .hpm-menuSetting{
+      @include edit-section--spacing;
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
           margin: 0;
           padding: 0;
-          li{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            div.hpm-Menu{
-              font-size: 14px;
-              background-color: #E6E6E6;
-              padding: 8px 15px;
-              display: flex;
-              margin: 0 0 3px;
-              align-items: center;
-              justify-content: space-between;
-              a{
-                border: initial;
-                color: #000;
-                
-                &:hover{
-                  text-decoration: none;
-                }
-              }
-              span{
-                font-size: 12px;
-                color: #a5a5a5;
-              }
-              ul{
-                padding: 0 0 0 30px;
-                li{
-  
-                }
+          width: 100%;
+          list-style-type: none;
+          div.hpm-Menu{
+            font-size: 14px;
+            background-color: #E6E6E6;
+            padding: 8px 15px;
+            display: flex;
+            margin: 0 0 3px;
+            align-items: center;
+            justify-content: space-between;
+            a{
+              border: initial;
+              color: #000;
+              
+              &:hover{
+                text-decoration: none;
               }
             }
-            .hpm-subMenu{
+            span{
+              font-size: 12px;
+              color: #a5a5a5;
+            }
+            ul{
               padding: 0 0 0 30px;
+              li{
+
+              }
             }
+          }
+          .hpm-subMenu{
+            padding: 0 0 0 30px;
           }
         }
       }
     }
     .hpm-select--font{
-      padding: 0 25px;
+      @include edit-section--spacing;
       ul.hpm--font-selection{
         margin: 0;
         padding: 0;
@@ -602,10 +609,7 @@ body {
           }
         }
       }
-      .file {
-        visibility: hidden;
-        position: absolute;
-      }
+      
     
       ul.pdfUpload{
         margin: 2rem 0 0 0;
@@ -644,6 +648,19 @@ body {
               margin-right: 0.8rem;
             }
           }
+        }
+      }
+
+      .ubungen-selection{
+        span.info-sel{
+          font-weight: bold;
+          font-size: 14px;
+          margin: 10px 0;
+          display: block;
+        }
+        label{
+          font-weight: normal;
+          font-size: 14px;
         }
       }
       
@@ -745,8 +762,45 @@ body {
       }
     }
   }
+
+  .file {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .file2 {
+    visibility: hidden;
+    position: absolute;
+  }
+  
   .hpm-pageEditor{
     padding-top: 2rem;
+  }
+
+  .custom-page-select{
+    select{
+      border: none;
+      background-color: white;
+      border-bottom: 1px solid #d8dcde;
+      border-top: 1px solid #d8dcde;
+      padding: 5px 0 8px 0;
+      color: #000;
+      width: 100%;
+      outline: none;
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 16px;
+      optgroup{
+        font-weight: normal;
+        font-size: 14px;
+      }
+
+      option{
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0 0 6px;
+      }
+    }
   }
 
   

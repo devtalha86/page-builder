@@ -918,6 +918,10 @@
   margin: 0;
   padding: 0; }
 
+.lodurMobile-form input[type=checkbox] {
+  margin: 0;
+  padding: 0; }
+
 .lodurMobile-form--datePicker, .lodurMobile-form--timePicker {
   position: absolute;
   right: 15px;
@@ -1152,7 +1156,8 @@ body {
     padding-top: 40px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
     padding: 0 25px 25px;
-    margin: 0 0 40px; }
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
       padding: 0;
       margin: 0; }
@@ -1160,24 +1165,26 @@ body {
         display: inline-block;
         padding: 0 4px; }
         .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span {
-          width: 32px;
-          height: 32px;
+          width: 55px;
+          height: 30px;
           display: block; }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.red {
-            background-color: #E94C3D; }
+            background: linear-gradient(-90deg, #EA4B3A 50%, #D42B19 50%); }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.green {
-            background-color: #3DE971; }
+            background: linear-gradient(-90deg, #3DE971 50%, #329750 50%); }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.grey {
-            background-color: #848484; }
+            background: linear-gradient(-90deg, #848484 50%, #575757 50%); }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.blue {
-            background-color: #0AC4FF; }
+            background: linear-gradient(-90deg, #0AC4FF 50%, #1e7f9c 50%); }
           .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li a span.yellow {
-            background-color: #E9C13D; }
+            background: linear-gradient(-90deg, #E9C13D 50%, #ac9137 50%); }
         .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul li.selected--color a span {
           border: solid 3px #ffffff;
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
   .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo {
-    padding: 0 25px; }
+    padding: 0 25px 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
       font-size: 14px;
       outline-style: dashed;
@@ -1197,7 +1204,9 @@ body {
       .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
         font-size: 20px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage {
-    padding: 0 25px; }
+    padding: 0 25px 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul {
       margin: 0;
       padding: 0;
@@ -1235,7 +1244,9 @@ body {
           width: 100%;
           height: 110px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu {
-    padding: 0 25px; }
+    padding: 0 25px 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
       margin: 0;
       padding: 0; }
@@ -1248,14 +1259,19 @@ body {
           .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
             border: 2px solid #0055FF;
             border-radius: 10px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul {
+  .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting {
+    padding: 0 25px 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul {
       margin: 0;
       padding: 0; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li {
+      .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li {
         margin: 0;
         padding: 0;
-        width: 100%; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu {
+        width: 100%;
+        list-style-type: none; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu {
           font-size: 14px;
           background-color: #E6E6E6;
           padding: 8px 15px;
@@ -1263,20 +1279,22 @@ body {
           margin: 0 0 3px;
           align-items: center;
           justify-content: space-between; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a {
+          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a {
             border: initial;
             color: #000; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu a:hover {
+            .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a:hover {
               text-decoration: none; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu span {
+          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu span {
             font-size: 12px;
             color: #a5a5a5; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li div.hpm-Menu ul {
+          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu ul {
             padding: 0 0 0 30px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu .hpm-menuSetting ul li .hpm-subMenu {
+        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li .hpm-subMenu {
           padding: 0 0 0 30px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-select--font {
-    padding: 0 25px; }
+    padding: 0 25px 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection {
       margin: 0;
       padding: 0; }
@@ -1336,9 +1354,6 @@ body {
           padding: 10px 0; }
           .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li a:hover {
             text-decoration: none; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .file {
-      visibility: hidden;
-      position: absolute; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload {
       margin: 2rem 0 0 0;
       padding: 0;
@@ -1367,6 +1382,14 @@ body {
             color: initial; }
         .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:first-child {
           margin-right: 0.8rem; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .ubungen-selection span.info-sel {
+      font-weight: bold;
+      font-size: 14px;
+      margin: 10px 0;
+      display: block; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .ubungen-selection label {
+      font-weight: normal;
+      font-size: 14px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
     position: absolute;
     bottom: 0;
@@ -1443,8 +1466,36 @@ body {
       /* Safari and Chrome */
       appearance: none; }
 
+.homepageModule-wrapper .file {
+  visibility: hidden;
+  position: absolute; }
+
+.homepageModule-wrapper .file2 {
+  visibility: hidden;
+  position: absolute; }
+
 .homepageModule-wrapper .hpm-pageEditor {
   padding-top: 2rem; }
+
+.homepageModule-wrapper .custom-page-select select {
+  border: none;
+  background-color: white;
+  border-bottom: 1px solid #d8dcde;
+  border-top: 1px solid #d8dcde;
+  padding: 5px 0 8px 0;
+  color: #000;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px; }
+  .homepageModule-wrapper .custom-page-select select optgroup {
+    font-weight: normal;
+    font-size: 14px; }
+  .homepageModule-wrapper .custom-page-select select option {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0 0 6px; }
 
 #addNewPDF .modal-dialog {
   max-width: 600px; }

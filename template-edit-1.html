@@ -28,21 +28,41 @@
                             </ul>
                         </div>
                         <div class="hpm-uploadLogo">
-                            <h2>Upload a logo</h2>
+                            <h2>Upload logo</h2>
                             <p class="hpm--subHeadline">Don't have one? Just click continue...</p>
-                            <div class="hpm--uploader mt-4">
-                                <div><b>Click to upload your image</b></div>
-                                <div>(or drag and drop)</div>
-                            </div>
-                            <div class="hpm--Logo">
-                                <div>
-                                    <img src="assets/image/demo-logo.png" alt="">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div id="msg"></div>
+                                    <form method="post" id="image-form">
+                                        <input type="file" name="img[]" class="file" accept="image/*" id="input-1">
+                                        <div class="input-group my-3">
+                                            <input type="text" class="form-control" disabled placeholder="Upload Image" id="file">
+                                            <div class="input-group-append">
+                                                <button type="button" class="browse btn btn-primary">Browse...</button>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
-                                <div class="mt-4">
-                                    <a href="#"><span class="lodur-icon-bin"></span></a>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <img src="" style="display: none; max-height: 160px;" id="preview" class="img-thumbnail">
                                 </div>
                             </div>
                         </div>
+
+                        <div class="hpm-headerImage">
+
+                            <h2>Upload banner image</h2>
+                            <p class="hpm--subHeadline">Upload slider images, you can add images and texts</p>
+
+                            <div class="mt-4" id="app">
+                                <upload-gambar></upload-gambar>
+                                <div class="text-center"><span style="font-size: 12px;">Click the image to upload/change</span></div>
+                            </div>
+                          
+                        </div>
+                        
                         <div class="hpm-template--buttons">
                             <div class="hpm--statusBar">
                                 <div class="hpm--statusBar--complete"></div>
@@ -50,7 +70,7 @@
                             <div class="hpm-status--buttons">
                                 <div class="hpm-statusInfo">You're on your way...</div>
                                 <div>
-                                    <a href="select-template.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
+                                    <!-- <a href="select-template.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a> -->
                                     <a href="template-edit-2.html" class="btn btn-primary lodur-blue--button">Continue</a>
                                 </div>
                             </div>
@@ -71,7 +91,7 @@
 
 
 
-    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js'></script>
 
 
 
@@ -84,6 +104,54 @@
         $(this).addClass("selected--color");        
     });
 
+    $(document).on("click", ".browse", function() {
+        var file = $(this).parents().find(".file");
+        file.trigger("click");
+        });
+        $('#input-1').change(function(e) {
+        var fileName = e.target.files[0].name;
+        $("#file").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview").src = e.target.result;
+            $('#preview').css('display', 'block');
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+
+    Vue.component('upload-gambar', {
+	template: `
+  <span @click="openUpload">
+  	<img ref="preview" :src="showImage" style="width: 100%; height: 170px; margin-bottom: 1rem; object-fit:cover">
+    <input ref="input" @change="previewImage" type="file" id="file-field" accept="image/*" style="display: none"/>
+  </span>`,
+  
+  data: () => { return {
+    showImage: 'assets/image/img-placeholder.png'
+  }},
+  
+  methods: {
+    openUpload () {
+      this.$refs.input.click()      
+    },
+    
+    previewImage () {
+      var reader = new FileReader()
+      reader.readAsDataURL(this.$refs.input.files[0])
+      
+      reader.onload = e => {
+        this.showImage = e.target.result
+      } 
+    }
+  }
+});
+
+new Vue({
+  el: '#app'
+})
 
 
     </script>
