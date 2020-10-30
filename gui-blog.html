@@ -18,144 +18,149 @@
             <div class="col-12 col-lg-12">
                 <div class="hpm-edit--panel">
                     <div class="hpm-sidebar--scroller">
-                        <div class="hpm-blog">
-                            <!-- <p class="hpm--subHeadline">Select a page to edit</p> -->
-                            <form>
-                                <div class="custom-page-select" style="width:100%;">
+                        <div class="hpm-sidebar--spacing">
+                            <div class="hpm-hpm-page-selector">
+                                <!-- <p class="hpm--subHeadline">Select a page to edit</p> -->
+                                <form>
+                                    <div class="custom-page-select" style="width:100%;">
 
-                                    <select onchange="window.open(this.options[this.selectedIndex].value, '_self')">
-                                        <option value="gui-home.html">Home</option>
-                                        <optgroup label="About Us">
-                                            <option value="gui-ubungen.html">Übungen</option>
-                                            <option value="gui-einsatz.html">Einsätze</option>
-                                            <option value="gui-fahrzeuge.html">Fahrzeuge</option>
-                                        </optgroup>
-                                        <option value="gui-gallery.html">Gallery</option>
-                                        <optgroup label="Our Team">
-                                            <option value="gui-organigram.html">Organigramm</option>
-                                            <option value="gui-manchaft.html">Mannschaft</option>
-                                        </optgroup>
-                                        <option value="gui-blog.html" selected>Blog</option>
-                                        <option value="gui-contact.html">Contact</option>
-                                    </select>
+                                        <select onchange="window.open(this.options[this.selectedIndex].value, '_self')">
+                                            <option value="gui-home.html">Home</option>
+                                            <optgroup label="About Us">
+                                                <option value="gui-ubungen.html">Übungen</option>
+                                                <option value="gui-einsatz.html">Einsätze</option>
+                                                <option value="gui-fahrzeuge.html">Fahrzeuge</option>
+                                            </optgroup>
+                                            <option value="gui-gallery.html">Gallery</option>
+                                            <optgroup label="Our Team">
+                                                <option value="gui-organigram.html">Organigramm</option>
+                                                <option value="gui-manchaft.html">Mannschaft</option>
+                                            </optgroup>
+                                            <option value="gui-blog.html" selected>Blog</option>
+                                            <option value="gui-contact.html">Contact</option>
+                                        </select>
 
-                                </div>
-                            </form>
-                            
+                                    </div>
+                                </form>
+                            </div>    
 
-                            
-                            
+                                
+                                
+                            <div class="hpm-tabs">
+                                <ul class="nav mt-4">
+                                    <li class="active selected"><a href="#1a" data-toggle="tab">News</a></li>
+                                    <li><a href="#2a" data-toggle="tab">PDF</a></li>
+                                </ul>
+                            </div>
 
-                            <ul class="nav mt-4">
-                                <li class="active selected"><a href="#1a" data-toggle="tab">News</a></li>
-                                <li><a href="#2a" data-toggle="tab">PDF</a></li>
-                            </ul>
-                            <div class="tab-content clearfix">
-                                <div id="1a" class="tab-pane p-0 mt-4 active">
+                            <div class="hpm-blog">
+                                <div class="tab-content clearfix">
+                                    <div id="1a" class="tab-pane p-0 mt-4 active">
 
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div id="msg"></div>
-                                            <form method="post" id="image-form">
-                                                <input type="file" name="img[]" class="file" accept="image/*">
-                                                <div class="input-group my-3">
-                                                    <input type="text" class="form-control" disabled placeholder="Upload Image" id="file">
-                                                    <div class="input-group-append">
-                                                        <button type="button" class="browse btn btn-primary">Browse...</button>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div id="msg"></div>
+                                                <form method="post" id="image-form">
+                                                    <input type="file" name="img[]" class="file" accept="image/*">
+                                                    <div class="input-group my-3">
+                                                        <input type="text" class="form-control" disabled placeholder="Upload Image" id="file">
+                                                        <div class="input-group-append">
+                                                            <button type="button" class="browse btn btn-primary">Browse...</button>
+                                                        </div>
                                                     </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <img src="" style="display: none; max-height: 160px;" id="preview" class="img-thumbnail">
+                                            </div>
+                                        </div>
+                                        
+                                        <form class="lodurMobile-form" action="">
+                                            
+                                            <div class="row mt-4">
+                                                <div class="col-lg-12">
+                                                    <label for="">Article Title</label>
+                                                    <input class="" type="text">
                                                 </div>
-                                            </form>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Details</label>
+                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                </div>
+                                            </div>
+
+                                        </form>
+
+                                            
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-primary btn-sm lodur-blue--button">Create Post</a>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <img src="" style="display: none; max-height: 160px;" id="preview" class="img-thumbnail">
-                                        </div>
-                                    </div>
+                                            
                                     
-                                    <form class="lodurMobile-form" action="">
-                                        
-                                        <div class="row mt-4">
-                                            <div class="col-lg-12">
-                                                <label for="">Article Title</label>
-                                                <input class="" type="text">
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <label for="">Details</label>
-                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                            </div>
-                                        </div>
-
-                                    </form>
-
-                                        
-
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <a href="#" class="btn btn-primary lodur-blue--button">Create Post</a>
-                                        </div>
                                     </div>
-                                        
-                                   
-                                </div>
-                                <div id="2a" class="tab-pane p-0 mt-5">
-                                    <form class="lodurMobile-form" action="">
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <a href="#" class="btn btn-primary lodur-blue--button" data-toggle="modal" data-target="#addNewPDF">Add New PDF</a>
+                                    <div id="2a" class="tab-pane p-0 mt-5">
+                                        <form class="lodurMobile-form" action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <a href="#" class="btn btn-primary btn-sm lodur-blue--button" data-toggle="modal" data-target="#addNewPDF">Add New PDF</a>
+                                                </div>
                                             </div>
-                                        </div>
 
-                                        <div class="row">
-                                            <div class="col-lg-12">
-                                                <ul class="pdfUpload">
-                                                    <li>
-                                                        <div>
-                                                            <span class="lodur-icon-pdf"></span>
-                                                            <span>SGV-info zur Fasnacht...</span>
-                                                        </div>
-                                                        <div>
-                                                            <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
-                                                            <span class="lodur-icon-bin"></span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <span class="lodur-icon-pdf"></span>
-                                                            <span>SGV-info zur Fasnacht...</span>
-                                                        </div>
-                                                        <div>
-                                                            <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
-                                                            <span class="lodur-icon-bin"></span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <span class="lodur-icon-pdf"></span>
-                                                            <span>SGV-info zur Fasnacht...</span>
-                                                        </div>
-                                                        <div>
-                                                            <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
-                                                            <span class="lodur-icon-bin"></span>
-                                                        </div>
-                                                    </li>
-                                                    <li>
-                                                        <div>
-                                                            <span class="lodur-icon-pdf"></span>
-                                                            <span>SGV-info zur Fasnacht...</span>
-                                                        </div>
-                                                        <div>
-                                                            <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
-                                                            <span class="lodur-icon-bin"></span>
-                                                        </div>
-                                                    </li>
-                                                </ul>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <ul class="pdfUpload">
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
                                             </div>
-                                        </div>
-                                        
-                                    </form>
+                                            
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -242,9 +247,9 @@
 
     <script>
 
-    $(".hpm-blog ul.nav li").click(function () { 
+    $(".hpm-tabs ul.nav li").click(function () { 
         if($(this).removeClass("selected"))
-            $(".hpm-blog ul.nav li").removeClass("selected");               
+            $(".hpm-tabs ul.nav li").removeClass("selected");               
         $(this).addClass("selected");        
     });
 

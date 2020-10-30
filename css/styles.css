@@ -1154,8 +1154,10 @@ body {
     height: calc(100vh - 111px);
     padding-bottom: 40px;
     padding-top: 40px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-sidebar--scroller .hpm-sidebar--spacing {
+      padding: 0 25px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection {
-    padding: 0 25px 25px;
+    padding: 0 0 25px;
     margin: 0 0 40px;
     border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-colorSelection ul {
@@ -1182,7 +1184,7 @@ body {
           border: solid 3px #ffffff;
           box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.38); }
   .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo {
-    padding: 0 25px 25px;
+    padding: 0 0 25px;
     margin: 0 0 40px;
     border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--uploader {
@@ -1204,7 +1206,7 @@ body {
       .homepageModule-wrapper .hpm-edit--panel .hpm-uploadLogo .hpm--Logo span.lodur-icon-bin {
         font-size: 20px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage {
-    padding: 0 25px 25px;
+    padding: 0 0 25px;
     margin: 0 0 40px;
     border-bottom: 1px solid #DEDEDE; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-headerImage ul {
@@ -1243,79 +1245,67 @@ body {
           object-fit: cover;
           width: 100%;
           height: 110px; }
-  .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu {
-    padding: 0 25px 25px;
-    margin: 0 0 40px;
-    border-bottom: 1px solid #DEDEDE; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
+  .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul {
+    margin: 0;
+    padding: 0; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li {
+      display: inline-block;
+      padding: 0 2px 0 0; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a {
+        display: block;
+        border: 2px solid #fff; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
+          border: 2px solid #0055FF;
+          border-radius: 10px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul {
+    margin: 0;
+    padding: 0; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li {
       margin: 0;
-      padding: 0; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li {
-        display: inline-block;
-        padding: 0 2px 0 0; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a {
-          display: block;
-          border: 2px solid #fff; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-navigationMenu ul li a.selected {
-            border: 2px solid #0055FF;
-            border-radius: 10px; }
-  .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting {
-    padding: 0 25px 25px;
-    margin: 0 0 40px;
-    border-bottom: 1px solid #DEDEDE; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul {
-      margin: 0;
-      padding: 0; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        list-style-type: none; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu {
-          font-size: 14px;
-          background-color: #E6E6E6;
-          padding: 8px 15px;
-          display: flex;
-          margin: 0 0 3px;
-          align-items: center;
-          justify-content: space-between; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a {
-            border: initial;
-            color: #000; }
-            .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a:hover {
-              text-decoration: none; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu span {
-            font-size: 12px;
-            color: #a5a5a5; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu ul {
-            padding: 0 0 0 30px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li .hpm-subMenu {
-          padding: 0 0 0 30px; }
-  .homepageModule-wrapper .hpm-edit--panel .hpm-select--font {
-    padding: 0 25px 25px;
-    margin: 0 0 40px;
-    border-bottom: 1px solid #DEDEDE; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection {
-      margin: 0;
-      padding: 0; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li {
-        list-style-type: none;
-        padding: 0 0 15px; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a {
-          display: block;
-          border: 2px solid #E4E4E4;
-          border-radius: 12px;
-          padding: 15px 25px 5px;
+      padding: 0;
+      width: 100%;
+      list-style-type: none; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu {
+        font-size: 14px;
+        background-color: #E6E6E6;
+        padding: 8px 15px;
+        display: flex;
+        margin: 0 0 3px;
+        align-items: center;
+        justify-content: space-between; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a {
+          border: initial;
           color: #000; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a:hover {
+          .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu a:hover {
             text-decoration: none; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a.selected {
-            border: 2px solid #0055FF; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--heading {
-            font-size: 16px;
-            margin-bottom: 0.5rem; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--body {
-            font-size: 14px; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu span {
+          font-size: 12px;
+          color: #a5a5a5; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li div.hpm-Menu ul {
+          padding: 0 0 0 30px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-menuSetting ul li .hpm-subMenu {
+        padding: 0 0 0 30px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection {
+    margin: 0;
+    padding: 0; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li {
+      list-style-type: none;
+      padding: 0 0 15px; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a {
+        display: block;
+        border: 2px solid #E4E4E4;
+        border-radius: 12px;
+        padding: 15px 25px 5px;
+        color: #000; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a:hover {
+          text-decoration: none; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a.selected {
+          border: 2px solid #0055FF; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--heading {
+          font-size: 16px;
+          margin-bottom: 0.5rem; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--body {
+          font-size: 14px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails {
     padding: 0 25px; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul {
@@ -1335,61 +1325,88 @@ body {
           padding: 10px 0; }
           .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul li a:hover {
             text-decoration: none; }
-  .homepageModule-wrapper .hpm-edit--panel .hpm-blog {
-    padding: 0 25px; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul {
-      margin: 0;
-      padding: 0;
-      width: 100%; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li {
-        border-bottom: 3px solid #E8EBF2;
-        float: left;
-        list-style-type: none;
-        width: 50%;
-        text-align: center; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li.selected {
-          border-bottom: 3px solid #0055FF; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li a {
-          display: block;
-          padding: 10px 0; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul li a:hover {
-            text-decoration: none; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload {
-      margin: 2rem 0 0 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column; }
-      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li {
-        margin: 0;
-        padding: 10px 0;
-        display: flex;
-        width: 100%;
-        justify-content: space-between; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child {
-          display: flex;
-          align-items: center; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span.lodur-icon-pdf {
-            color: #EA4C3A;
-            font-size: 1.5rem;
-            margin-right: 0.7rem; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span:nth-child(2) {
-            font-size: .8rem;
-            font-weight: bold; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span {
-          cursor: pointer;
-          color: #8B8B8B; }
-          .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:hover {
-            color: initial; }
-        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:first-child {
-          margin-right: 0.8rem; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .ubungen-selection span.info-sel {
+  .homepageModule-wrapper .hpm-edit--panel .hpm-home--welcome {
+    padding: 0 0 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul {
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li {
+      border-bottom: 3px solid #E8EBF2;
+      float: left;
+      list-style-type: none;
+      width: 50%;
+      text-align: center; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li.selected {
+        border-bottom: 3px solid #0055FF; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li a {
+        display: block;
+        padding: 10px 0; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li a:hover {
+          text-decoration: none; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-home-events {
+    padding: 0 0 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE;
+    margin-bottom: 40px;
+    padding-bottom: 0px; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-home-events .ubungen-selection span.info-sel {
       font-weight: bold;
       font-size: 14px;
       margin: 10px 0;
       display: block; }
-    .homepageModule-wrapper .hpm-edit--panel .hpm-blog .ubungen-selection label {
+    .homepageModule-wrapper .hpm-edit--panel .hpm-home-events .ubungen-selection label {
       font-weight: normal;
       font-size: 14px; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-fahrzeuge--details button.btn-add-icon {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #858585; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-fahrzeuge--details button.btn-add-icon:hover {
+      cursor: pointer;
+      color: #000000; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-fahrzeuge--details button.btn-add-icon:focus {
+      border: none;
+      outline: none; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload {
+    margin: 2rem 0 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; }
+    .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li {
+      margin: 0;
+      padding: 10px 0;
+      display: flex;
+      width: 100%;
+      justify-content: space-between; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child {
+        display: flex;
+        align-items: center; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span.lodur-icon-pdf {
+          color: #EA4C3A;
+          font-size: 1.5rem;
+          margin-right: 0.7rem; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:first-child span:nth-child(2) {
+          font-size: .8rem;
+          font-weight: bold; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span {
+        cursor: pointer;
+        color: #8B8B8B; }
+        .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:hover {
+          color: initial; }
+      .homepageModule-wrapper .hpm-edit--panel .hpm-blog ul.pdfUpload li div:last-child span:first-child {
+        margin-right: 0.8rem; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-ubungen {
+    padding: 0 0 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
+  .homepageModule-wrapper .hpm-edit--panel .hpm-ubungen--details {
+    padding: 0 0 25px;
+    margin: 0 0 40px;
+    border-bottom: 1px solid #DEDEDE; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-template--buttons {
     position: absolute;
     bottom: 0;

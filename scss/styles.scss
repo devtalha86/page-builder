@@ -343,6 +343,9 @@ body {
     }
     .hpm-sidebar--scroller{
       @include hpm-sidebar--scroller;
+      .hpm-sidebar--spacing{
+        padding: 0 25px;
+      }
     }
     .hpm-colorSelection{
       @include edit-section--spacing;
@@ -465,7 +468,7 @@ body {
       }
     }
     .hpm-navigationMenu{
-      @include edit-section--spacing;
+      
       ul{
         margin: 0;
         padding: 0;
@@ -486,7 +489,7 @@ body {
     }
 
     .hpm-menuSetting{
-      @include edit-section--spacing;
+      
       ul{
         margin: 0;
         padding: 0;
@@ -529,7 +532,7 @@ body {
       }
     }
     .hpm-select--font{
-      @include edit-section--spacing;
+      
       ul.hpm--font-selection{
         margin: 0;
         padding: 0;
@@ -585,8 +588,16 @@ body {
       }
       
     }
-    .hpm-blog{
-      padding: 0 25px;
+    .hpm-page-selector{
+      
+    }
+    
+    .hpm-home--welcome{
+      @include edit-section--spacing;
+    }
+    
+    .hpm-tabs{
+      
       ul{
         margin: 0;
         padding: 0;
@@ -608,9 +619,48 @@ body {
             }
           }
         }
+      } 
+    }
+
+    .hpm-home-events{
+      @include edit-section--spacing;
+      margin-bottom: 40px;
+      padding-bottom: 0px;
+      
+
+      .ubungen-selection{
+        span.info-sel{
+          font-weight: bold;
+          font-size: 14px;
+          margin: 10px 0;
+          display: block;
+        }
+        label{
+          font-weight: normal;
+          font-size: 14px;
+        }
       }
       
-    
+    }
+
+    .hpm-fahrzeuge--details{
+      button.btn-add-icon{
+        background: none;
+        border: none;
+        font-size: 25px;
+        color: #858585;
+        &:hover{
+          cursor: pointer;
+          color: #000000;
+        }
+        &:focus{
+          border: none;
+          outline: none;
+        }
+      }
+    }
+
+    .hpm-blog{
       ul.pdfUpload{
         margin: 2rem 0 0 0;
         padding: 0;
@@ -650,23 +700,15 @@ body {
           }
         }
       }
-
-      .ubungen-selection{
-        span.info-sel{
-          font-weight: bold;
-          font-size: 14px;
-          margin: 10px 0;
-          display: block;
-        }
-        label{
-          font-weight: normal;
-          font-size: 14px;
-        }
-      }
-      
     }
 
+    .hpm-ubungen{
+      @include edit-section--spacing;
+    }
 
+    .hpm-ubungen--details{
+      @include edit-section--spacing;
+    }
 
     .hpm-template--buttons{
       position: absolute;
