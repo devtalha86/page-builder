@@ -610,9 +610,11 @@ body {
           text-align: center;
           &.selected{
             border-bottom: 3px solid #0055FF;
+            font-weight: bold;
           }
           a{
             display: block;
+            font-size: 14px;
             padding: 10px 0;
             &:hover{
               text-decoration: none;

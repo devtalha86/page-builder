@@ -1340,9 +1340,11 @@ body {
       width: 50%;
       text-align: center; }
       .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li.selected {
-        border-bottom: 3px solid #0055FF; }
+        border-bottom: 3px solid #0055FF;
+        font-weight: bold; }
       .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li a {
         display: block;
+        font-size: 14px;
         padding: 10px 0; }
         .homepageModule-wrapper .hpm-edit--panel .hpm-tabs ul li a:hover {
           text-decoration: none; }

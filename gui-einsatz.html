@@ -91,67 +91,120 @@
 
                             </div>
 
-                            <div class="hpm-ubungen--details">
-                                <h2>Einsätze details</h2>
+                            <h2>Einsätze details</h2>
                                 <p class="hpm--subHeadline">Select an event to add/change details</p>
-                                
-                                <div class="row">
-                                    <div class="col-12">
 
-                                        <form class="lodurMobile-form" action="">
-                                        
-                                            <div class="row mt-4">
-                                                <div class="col-lg-12">
-                                                    <label for="">Article Title</label>
-                                                    <input class="" type="text">
-                                                </div>
+                            <div class="hpm-tabs">
+                                <ul class="nav mt-4">
+                                    <li class="active selected"><a href="#1a" data-toggle="tab">Article</a></li>
+                                    <li><a href="#2a" data-toggle="tab">PDF</a></li>
+                                </ul>
+                            </div>
+
+
+                            <div class="hpm-ubungen--details hpm-blog">
+                                
+                                <div class="tab-content clearfix">
+
+                                    <div id="1a" class="tab-pane p-0 mt-4 active">
+                                        <div class="row">
+                                            <div class="col-12">
+
+                                                <form class="lodurMobile-form" action="">
+                                                
+                                                    <div class="row mt-4">
+                                                        <div class="col-lg-12">
+                                                            <label for="">Article Title</label>
+                                                            <input class="" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <label for="">Details</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                        </div>
+                                                    </div>
+
+                                                </form>
+                                                
                                             </div>
+                                            
+                                        </div>
+
+                                        <div class="row my-3">
+                                            <div class="col-lg-12">
+
+                                                
+                                                
+                                                <form action="" id="img-upload-form" method="post" enctype="multipart/form-data">
+                                                    <div>
+                                                        <label style="width: 100%;" for="upload_imgs" class="btn btn-primary ">Select Images +</label>
+                                                        <input class="d-none" type="file" id="upload_imgs" name="upload_imgs[]" multiple/>
+                                                    </div>
+                                                    
+                                                    
+                                                        <div class="quote-imgs-thumbs quote-imgs-thumbs--hidden" id="img_preview" aria-live="polite">
+                                                            <!-- <div class="mb-3">
+                                                                <input class="btn btn-success btn-sm" type="submit" name="submit" value="Upload Images"/>
+                                                            </div> -->
+                                                        </div>
+                                                </form>
+                                                
+                                                <!--
+                                                <label for="exampleFileUpload" class="button">Upload File</label>
+                                                <input type="file" id="exampleFileUpload" class="show-for-sr">
+                                                -->
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="row">
+                                            <div class="col-lg-12">
+                                                <a href="#" class="btn btn-primary lodur-blue--button">Save</a>
+                                            </div>
+                                        </div> -->
+                                    </div>
+
+                                    <div id="2a" class="tab-pane p-0 mt-5">
+                                        <form class="lodurMobile-form" action="">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <label for="">Details</label>
-                                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                    <a href="#" class="btn btn-primary btn-sm lodur-blue--button" data-toggle="modal" data-target="#addNewPDF">Add New PDF</a>
                                                 </div>
                                             </div>
 
-                                        </form>
-                                        
-                                    </div>
-                                    
-                                </div>
-
-                                <div class="row my-3">
-                                    <div class="col-lg-12">
-
-                                        
-                                        
-                                        <form action="" id="img-upload-form" method="post" enctype="multipart/form-data">
-                                            <div>
-                                                <label style="width: 100%;" for="upload_imgs" class="btn btn-primary ">Select Images +</label>
-                                                <input class="d-none" type="file" id="upload_imgs" name="upload_imgs[]" multiple/>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <ul class="pdfUpload">
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <span class="lodur-icon-pdf"></span>
+                                                                <span>SGV-info zur Fasnacht...</span>
+                                                            </div>
+                                                            <div>
+                                                                <span class="lodur-icon-edit" data-toggle="modal" data-target="#addNewPDF"></span>
+                                                                <span class="lodur-icon-bin"></span>
+                                                            </div>
+                                                        </li>
+                                                    
+                                                    </ul>
+                                                </div>
                                             </div>
                                             
-                                            
-                                                <div class="quote-imgs-thumbs quote-imgs-thumbs--hidden" id="img_preview" aria-live="polite">
-                                                    <!-- <div class="mb-3">
-                                                        <input class="btn btn-success btn-sm" type="submit" name="submit" value="Upload Images"/>
-                                                    </div> -->
-                                                </div>
                                         </form>
-                                        
-                                        <!--
-                                        <label for="exampleFileUpload" class="button">Upload File</label>
-                                        <input type="file" id="exampleFileUpload" class="show-for-sr">
-                                        -->
                                     </div>
-                                </div>
 
-                                <!-- <div class="row">
-                                    <div class="col-lg-12">
-                                        <a href="#" class="btn btn-primary lodur-blue--button">Save</a>
-                                    </div>
-                                </div> -->
-                                
-                                
+
+                                </div>
                             </div>
                         
                         </div>
@@ -164,7 +217,7 @@
                                     <div class="hpm-statusInfo">Complete!</div>
                                     <div>
                                         <a href="template-edit-5.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
-                                        <a href="#" class="btn btn-primary lodur-blue--button">Update Page</a>
+                                        <a href="#" class="btn btn-primary lodur-blue--button">Save</a>
                                     </div>
                                 </div>
                             </div>
@@ -240,9 +293,9 @@
 
     <script>
 
-    $(".hpm-blog ul.nav li").click(function () { 
+    $(".hpm-tabs ul.nav li").click(function () { 
         if($(this).removeClass("selected"))
-            $(".hpm-blog ul.nav li").removeClass("selected");               
+            $(".hpm-tabs ul.nav li").removeClass("selected");               
         $(this).addClass("selected");        
     });
 
