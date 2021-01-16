@@ -1352,7 +1352,7 @@ body {
     padding: 0 0 25px;
     margin: 0 0 40px;
     border-bottom: 1px solid #DEDEDE;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding-bottom: 0px; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-home-events .ubungen-selection span.info-sel {
       font-weight: bold;
@@ -1518,3 +1518,11 @@ body {
 
 #addNewPDF .modal-dialog {
   max-width: 600px; }
+
+.retention_interval_div {
+  opacity: 0.4;
+  pointer-events: none; }
+
+#ifYes input[type=text]:disabled {
+  color: darkGray;
+  font-style: italic; }

@@ -626,7 +626,7 @@ body {
 
     .hpm-home-events{
       @include edit-section--spacing;
-      margin-bottom: 40px;
+      margin-bottom: 20px;
       padding-bottom: 0px;
       
 
@@ -856,3 +856,17 @@ body {
   }
 }
 
+.retention_interval_div {
+  opacity: 0.4;
+  pointer-events: none; 
+  
+}
+
+#ifYes{
+  input[type=text] {
+		&:disabled {
+			color: darkGray;
+			font-style: italic;
+		}
+	}
+}
