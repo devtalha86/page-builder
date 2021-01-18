@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Builder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="container-fluid homepageModule-wrapper">
+        <div class="row">    
+            <div class="col-12 col-lg-12">
+                <div class="hpm-edit--panel">
+                    <div class="hpm-sidebar--scroller">
+                        <div class="hpm-sidebar--spacing">
+
+                            <div class="hpm-page-selector">
+                                
+                                <form>
+                                    <div class="custom-page-select" style="width:100%;">
+
+                                        <select onchange="window.open(this.options[this.selectedIndex].value, '_self')">
+                                            <option value="gui-home.html">Home</option>
+                                            <optgroup label="About Us">
+                                                <option value="gui-ubungen.html">Übungen</option>
+                                                <option value="gui-einsatz.html">Einsätze</option>
+                                                <option value="gui-fahrzeuge.html">Fahrzeuge</option>
+                                            </optgroup>
+                                            <option value="gui-gallery.html">Gallery</option>
+                                            <optgroup label="Our Team">
+                                                <option value="gui-organigram.html">Organigramm</option>
+                                                <option value="gui-manchaft.html">Mannschaft</option>
+                                            </optgroup>
+                                            <option value="gui-blog.html">Blog</option>
+                                            <option value="gui-contact.html" selected>Contact</option>
+                                        </select>
+
+                                    </div>
+                                </form>
+                                
+                            </div>
+
+                            <div class="hpm-home-events border-0 pb-2">
+                                
+                                <div class="row ubungen-selection">
+                                    <div class="col-12 d-flex align-items-center justify-content-between">
+                                        <span style="font-size: 12px; color: #1b7935; font-weight: 600;" class="">Last published on 17-01-21</span>
+                                        <form class="lodurMobile-form d-flex">
+
+                                            <div class="mr-3">
+
+                                                <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck" checked="checked" >
+                                                <label for="yesCheck">Draft</label><br>
+
+                                            </div>
+
+                                            <div class="">
+
+                                                
+                                                <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck" value="yes">
+                                                <label for="noCheck">Publish</label><br>
+
+                                            </div>
+                                            
+                                            <br>
+                                            
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="hpm-contactDetails">
+
+                                <ul class="nav mt-4">
+                                    <li class="active selected"><a href="#1a" data-toggle="tab">Contact</a></li>
+                                    <li><a href="#2a" data-toggle="tab">Social</a></li>
+                                </ul>
+                                <div class="tab-content clearfix">
+                                    <div id="1a" class="tab-pane p-0 mt-4 active">
+                                        <form class="lodurMobile-form" action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Company Name</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Street</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">City</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 pr-2">
+                                                    <label for="">Zip</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                                <div class="col-lg-6 pl-2">
+                                                    <label for="">State</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Country</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">E-mail</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Phone</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div id="2a" class="tab-pane p-0 mt-4">
+                                        <form class="lodurMobile-form" action="">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Facebook</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Twitter</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Instagram</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Linkedin</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">Pinterest</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <label for="">YouTube</label>
+                                                    <input class="" type="text">
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="hpm-template--buttons">
+                            <div class="hpm--statusBar">
+                                <div class="hpm--statusBar--complete"></div>
+                            </div>
+                            <div class="hpm-status--buttons">
+                                <div class="hpm-statusInfo">Complete!</div>
+                                <div>
+                                    <a href="template-edit-1.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
+                                    <a href="gui-home.html" class="btn btn-primary lodur-blue--button">Save</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="hpm-templatePreview">
+                    <img src="assets/image/d-home.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+    <script src='https://code.jquery.com/jquery-2.1.1.js'></script>
+
+
+
+
+    <script>
+
+    $(".hpm-contactDetails ul.nav li").click(function () { 
+        if($(this).removeClass("selected"))
+            $(".hpm-contactDetails ul.nav li").removeClass("selected");               
+        $(this).addClass("selected");        
+    });
+
+
+
+
+
+    </script>
+            
+
+</body>
+</html>

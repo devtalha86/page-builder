@@ -1307,7 +1307,7 @@ body {
         .homepageModule-wrapper .hpm-edit--panel .hpm-select--font ul.hpm--font-selection li a .hpm-demoText--body {
           font-size: 14px; }
   .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails {
-    padding: 0 25px; }
+    padding: 0; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-contactDetails ul {
       margin: 0;
       padding: 0;
@@ -1352,7 +1352,6 @@ body {
     padding: 0 0 25px;
     margin: 0 0 40px;
     border-bottom: 1px solid #DEDEDE;
-    margin-bottom: 20px;
     padding-bottom: 0px; }
     .homepageModule-wrapper .hpm-edit--panel .hpm-home-events .ubungen-selection span.info-sel {
       font-weight: bold;
@@ -1505,7 +1504,7 @@ body {
   color: #000;
   width: 100%;
   outline: none;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-weight: bold;
   font-size: 16px; }
   .homepageModule-wrapper .custom-page-select select optgroup {
@@ -1518,11 +1517,3 @@ body {
 
 #addNewPDF .modal-dialog {
   max-width: 600px; }
-
-.retention_interval_div {
-  opacity: 0.4;
-  pointer-events: none; }
-
-#ifYes input[type=text]:disabled {
-  color: darkGray;
-  font-style: italic; }

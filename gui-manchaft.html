@@ -67,20 +67,31 @@
                                 
                             </div>
 
-                            <div class="hpm-home-events mt-4">
+                            <div class="hpm-home-events border-0 pb-2">
                                 
                                 <div class="row ubungen-selection">
-                                    <div class="col-12">
-                                        <span class="info-sel">Show Mannschaft</span>
-                                    <form class="lodurMobile-form">
+                                    <div class="col-12 d-flex align-items-center justify-content-between">
+                                        <span style="font-size: 12px; color: #1b7935; font-weight: 600;" class="">Last published on 17-01-21</span>
+                                        <form class="lodurMobile-form d-flex">
 
-                                        <input type="radio" id="yes" name="gender" value="yes">
-                                        <label for="yes">Yes</label><br>
-                                        <input type="radio" id="no" name="gender" value="no">
-                                        <label for="no">No</label><br>
-                                        <br><br>
-                                        
-                                    </form>
+                                            <div class="mr-3">
+
+                                                <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="yesCheck" checked="checked" >
+                                                <label for="yesCheck">Draft</label><br>
+
+                                            </div>
+
+                                            <div class="">
+
+                                                
+                                                <input type="radio" onclick="javascript:yesnoCheck();" name="yesno" id="noCheck" value="yes">
+                                                <label for="noCheck">Publish</label><br>
+
+                                            </div>
+                                            
+                                            <br>
+                                            
+                                        </form>
                                     </div>
                                 </div>
 
@@ -97,7 +108,7 @@
                                 <div class="hpm-status--buttons">
                                     <div class="hpm-statusInfo">Complete!</div>
                                     <div>
-                                        <a href="template-edit-5.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
+                                        <a href="template-edit-1.html" class="btn btn-primary lodur-blue--button pt-1 pb-0"><span class="lodur-icon-arrow-thin-left"></span></a>
                                         <a href="#" class="btn btn-primary lodur-blue--button">Save</a>
                                     </div>
                                 </div>

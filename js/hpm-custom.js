@@ -1,12 +1,12 @@
-function yesnoCheck() {
-    if (document.getElementById('yesCheck').checked) {
-        jQuery('#ifYes').removeClass('retention_interval_div');
+// function yesnoCheck() {
+//     if (document.getElementById('yesCheck').checked) {
+//         jQuery('#ifYes').removeClass('retention_interval_div');
         
 
-    }
-    else jQuery('#ifYes').addClass('retention_interval_div');
-    $('#ifYes :input').prop('disabled', function(i,oldVal) { return !oldVal; });
-}    
+//     }
+//     else jQuery('#ifYes').addClass('retention_interval_div');
+//     $('#ifYes :input').prop('disabled', function(i,oldVal) { return !oldVal; });
+// }    
 
 
 
